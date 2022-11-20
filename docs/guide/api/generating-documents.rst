@@ -1,13 +1,13 @@
 ====================
-Generating Documents
+Génération de documents
 ====================
 
-If you're specifying your API in a descriptive language, you're going to need tools to create engaging documents. Below we talk about some of the tools that work best with the languages we like to use.
+Si vous spécifiez votre API dans un langage descriptif, vous aurez besoin d'outils pour créer des documents attrayants. Nous présentons ci-dessous certains des outils qui fonctionnent le mieux avec les langages que nous aimons utiliser.
 
-.. toctree::
-   :maxdepth: 2
+.. toctree: :
+   :maxdepth : 2
 
-   apiary
+   ruche
 
 * Aglio
 * Sphinx
