@@ -1,53 +1,53 @@
 =============
-API Blueprint
+Plan directeur de l'API
 =============
 
-API Blueprint is a high-level language for describing web APIs. The syntax is a combination of Markdown syntax and Markdown Syntax for Object Notation (MSON), and the files are saved with a `.apib` extension. Markdown is a lightweight text formatting syntax. `MSON <https://github.com/apiaryio/mson>`_ is an extension of Markdown for describing data objects.
+API Blueprint est un langage de haut niveau pour la description des API Web. La syntaxe est une combinaison de la syntaxe Markdown et de la syntaxe Markdown pour la notation des objets (MSON), et les fichiers sont enregistrés avec une extension `.apib`. Markdown est une syntaxe légère de formatage de texte. `MSON <https://github.com/apiaryio/mson>`_ est une extension de Markdown pour la description des objets de données.
 
-The goal of the API Blueprint format is to support the design-first philosophy for REST APIs; however, the format works just as well for documenting existing APIs.
+L'objectif du format API Blueprint est de soutenir la philosophie de conception première des API REST ; cependant, le format fonctionne tout aussi bien pour la documentation des API existantes.
 
-Getting Started
+Pour commencer
 ---------------
 
-The quickest way to get started is to use `Apiary <https://apiary.io/>`_ to edit and view your documentation. Apiary is a service that allows you to edit and host documentation online. Start by signing up for an account `on Apiary. <https://login.apiary.io/register>`_
-Next, continue with the `API Blueprint Tutorial. <https://apiblueprint.org/documentation/tutorial.html>`_ It provides a good overview of how to describe a basic API.
+La façon la plus rapide de commencer est d'utiliser `Apiary <https://apiary.io/>`_ pour éditer et visualiser votre documentation. Apiary est un service qui vous permet d'éditer et d'héberger de la documentation en ligne. Commencez par vous inscrire à un compte `sur Apiary. <https://login.apiary.io/register>`_
+Ensuite, continuez avec le `tutoriel sur le plan directeur de l'API. <https://apiblueprint.org/documentation/tutorial.html>`_ Il fournit un bon aperçu de la façon de décrire une API de base.
 
-Writing Docs
+Rédaction de documents
 ------------
 
-The structure for an ``.apib`` file is::
+La structure d'un fichier ``.apib`` est : :
 
-  Metadata
-  API Name
-  Resource Group
-    Resource
+  Métadonnées
+  Nom de l'API
+  Groupe de ressources
+    Ressource
       Action
       Action
-    Resource
-  Resource Group
-  Data Structures
+    Ressource
+  Groupe de ressources
+  Structures de données
 
-``Metadata``:
-  describes the API Blueprint version
+Métadonnées :
+  décrit la version de l'API Blueprint
 
-``API Name``:
-  is your API name
+``Nom de l'API`` :
+  est le nom de votre API
 
-``Resource Groups``:
-  describes a collection of related API endpoints
+Groupes de ressources" :
+  décrit une collection de points de terminaison d'API connexes
 
-``Resources``:
-  describes a specific API endpoint
+``Resources`` :
+  décrit un point de terminaison d'API spécifique
 
-``Actions``:
-  describes specific http verb actions to an endpoint
+``Actions`` :
+  décrit les actions spécifiques du verbe http sur un point de terminaison.
 
-``Data Structures``:
-  describes data used in your API requests/responses. By defining them in a separate section, they can easily be reused.
+Structures de données" :
+  décrit les données utilisées dans vos demandes/réponses d'API. En les définissant dans une section distincte, elles peuvent être facilement réutilisées.
 
-Building Docs
+Création de documents
 -------------
 
-The two most popular tools for generating documents from API Blueprints are Apiary and `Aglio <https://github.com/danielgtaylor/aglio>`_.
+Les deux outils les plus populaires pour générer des documents à partir de Blueprints d'API sont Apiary et `Aglio <https://github.com/danielgtaylor/aglio>`_.
 
-* :ref:`apiary-building-docs` with Apiary.
+* :ref:`apiary-building-docs` avec Apiary.
