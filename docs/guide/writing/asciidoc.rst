@@ -1,95 +1,95 @@
-Introduction to AsciiDoc
+Introduction à AsciiDoc
 ========================
 
-What is AsciiDoc?
+Qu'est-ce qu'AsciiDoc ?
 -----------------
 
-`AsciiDoc <http://asciidoc.org>`_ is a text document format that was explicitly designed with the needs of publishing in mind, both print and web. It supports all the structural elements necessary for writing notes, documentation, articles, books, ebooks, slideshows, web pages, technical manuals and blogs. AsciiDoc is used in static site generators like `Antora <https://antora.org>`_.
+`AsciiDoc <http://asciidoc.org>`_ est un format de document texte qui a été explicitement conçu en tenant compte des besoins de l'édition, à la fois imprimée et web. Il prend en charge tous les éléments structurels nécessaires à la rédaction de notes, de documentation, d'articles, de livres, d'ebooks, de diaporamas, de pages web, de manuels techniques et de blogs. AsciiDoc est utilisé dans les générateurs de sites statiques comme `Antora <https://antora.org>`_.
 
-AsciiDoc is highly configurable: both the AsciiDoc source file syntax and the backend output markups (which can be almost any type of SGML/XML markup) can be customized and extended by the user.
+AsciiDoc est hautement configurable : à la fois la syntaxe du fichier source AsciiDoc et les balises de sortie backend (qui peuvent être presque n'importe quel type de balisage SGML/XML) peuvent être personnalisés et étendus par l'utilisateur.
 
-AsciiDoc files can be translated to many formats including HTML, PDF, EPUB, DocBook, man page. Some websites, like GitHub, render AsciiDoc files directly into HTML.
+Les fichiers AsciiDoc peuvent être traduits dans de nombreux formats, notamment HTML, PDF, EPUB, DocBook, page de manuel. Certains sites web, comme GitHub, rendent les fichiers AsciiDoc directement en HTML.
 
-In 2013, the Asciidoctor project was released. It was an effort to bring a comprehensive and accessible publishing toolchain, centered around the AsciiDoc syntax, to a growing range of ecosystems, including Ruby, JavaScript and the JVM.
+En 2013, le projet Asciidoctor a été lancé. Il s'agissait d'un effort pour apporter une chaîne d'outils de publication complète et accessible, centrée sur la syntaxe AsciiDoc, à un éventail croissant d'écosystèmes, notamment Ruby, JavaScript et la JVM.
 
-Why use AsciiDoc?
+Pourquoi utiliser AsciiDoc ?
 -----------------
 
-AsciiDoc is a lightweight markup language that helps you concentrate on writing content rather than being distracted by complex word processors, bury the content in XML schemas like DocBook, or battle with finicky WYSIWYG editors. With AsciiDoc you can forget about layout, typesetting, styling (and even some semantics) and just write.
+AsciiDoc est un langage de balisage léger qui vous aide à vous concentrer sur la rédaction de contenu plutôt que d'être distrait par des traitements de texte complexes, d'enterrer le contenu dans des schémas XML comme DocBook, ou de vous battre avec des éditeurs WYSIWYG pointilleux. Avec AsciiDoc, vous pouvez oublier la mise en page, la composition, le style (et même certains aspects sémantiques) et vous contenter d'écrire.
 
-    You write an AsciiDoc document the same way you would write a normal text document. There are no markup tags or weird format notations. AsciiDoc files are designed to be viewed, edited and printed directly or translated to other presentation formats.
+    Vous écrivez un document AsciiDoc de la même manière que vous écririez un document texte normal. Il n'y a pas de balises ou de notations de format bizarres. Les fichiers AsciiDoc sont conçus pour être visualisés, édités et imprimés directement ou traduits dans d'autres formats de présentation.
 
-What truly makes AsciiDoc the right investment is that its syntax was designed to be extended as a core feature. This extensibility not only means that AsciiDoc has a lot more to offer, with room to grow, it also fulfills the objective of ensuring your content is maximally reusable.
+Ce qui fait vraiment d'AsciiDoc le bon investissement, c'est que sa syntaxe a été conçue pour être étendue en tant que fonctionnalité de base. Cette extensibilité signifie non seulement qu'AsciiDoc a beaucoup plus à offrir, avec une marge de progression, mais aussi qu'il remplit l'objectif de garantir que votre contenu est réutilisable au maximum.
 
-How to use AsciiDoc?
+Comment utiliser AsciiDoc ?
 --------------------
 
-Paragraphs
+Paragraphes
 ~~~~~~~~~~
 
-Paragraphs don't require any special markup in AsciiDoc. A paragraph is just one or more lines of consecutive text.
+Les paragraphes ne nécessitent pas de balisage particulier dans AsciiDoc. Un paragraphe est simplement une ou plusieurs lignes de texte consécutives.
 
-To begin a new paragraph, separate it by at least one blank line. Newlines within a paragraph are not displayed.
+Pour commencer un nouveau paragraphe, il faut le séparer par au moins une ligne blanche. Les retours à la ligne à l'intérieur d'un paragraphe ne sont pas affichés.
 
-Text Formatting
+Formatage du texte
 ~~~~~~~~~~~~~~~
 
-::
+: :
 
     bold *constrained* & **un**constrained
     
-    italic _constrained_ & __un__constrained
+    italique _constrained_ & __un__constrained
     
-    bold italic *_constrained_* & **__un__**constrained
+    gras italique *_constrained_* & **__un__**constrained
     
-    monospace `constrained` & ``un``constrained
+    monospace `constrained` & `un``constrained
     
-    monospace bold `*constrained*` & ``**un**``constrained
+    monospace bold `*constrained*` & `**un**``constrained
     
-    monospace italic `_constrained_` & ``__un__``constrained
+    monospace italic `_constrained_` & `__un__``constrained
     
     monospace bold italic `*_constrained_*` & ``**__un__**``constrained
 
-Section Titles (Headings)
+Titres des sections (en-têtes)
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Headers are created using equal signs followed by a space. The number of equal signs matches the heading level in the HTML output. For example, Section Level 1 becomes an <h2> heading:::
+Les titres sont créés à l'aide de signes égaux suivis d'un espace. Le nombre de signes égaux correspond au niveau de l'en-tête dans la sortie HTML. Par exemple, le niveau de section 1 devient un titre <h2>:: :
 
-    = Document Title (Level 0)
+    = Titre du document (niveau 0)
 
-    == Level 1 Section Title
+    == Titre de section de niveau 1
 
-    === Level 2 Section Title
+    === Titre de section de niveau 2
 
-    ==== Level 3 Section Title
+    ==== Titre de section de niveau 3
 
-    ===== Level 4 Section Title
+    ===== Titre de section de niveau 4
 
-    ====== Level 5 Section Title
+    ====== Titre de section de niveau 5
 
-    == Another Level 1 Section Title
+    == Un autre titre de section de niveau 1
 
-Headers
+En-têtes
 ~~~~~~~
 
-Headers in AsciiDoc are optional.
-The header may not contain blank lines and must be offset from the content by at least one blank line::
+Les en-têtes dans AsciiDoc sont facultatifs.
+L'en-tête ne peut pas contenir de lignes vides et doit être décalé du contenu d'au moins une ligne vide: :
 
-    = My Document's Title
+    = Titre de mon document
 
-    My document provides...
+    Mon document fournit...
 
-::
+: :
 
-    = My Document's Title
-    Doc Writer <doc.writer@asciidoctor.org>
+    = Titre de mon document
+    Rédacteur du document <doc.writer@asciidoctor.org>
 
-    My document provides...
+    Mon document fournit...
 
-Lists
+Listes
 ~~~~~
 
-Unordered lists::
+Listes non ordonnées: :
 
     * Edgar Allen Poe
     * Sheri S. Tepper
@@ -99,214 +99,214 @@ Unordered lists::
     - Sheri S. Tepper
     - Bill Bryson
 
-    * level 1
-    ** level 2
-    *** level 3
-    **** level 4
-    ***** level 5
-    * level 1
+    * Niveau 1
+    ** niveau 2
+    *** niveau 3
+    **** niveau 4
+    ***** niveau 5
+    * niveau 1
 
-Ordered lists::
+Listes ordonnées : :
 
-    . Step 1
-    . Step 2
-    . Step 3
+    . étape 1
+    . Étape 2
+    . Étape 3 .
 
-    . Step 1
-    . Step 2
-    .. Step 2a
-    .. Step 2b
-    . Step 3
+    . Étape 1
+    . Étape 2 .
+    .. Étape 2a
+    .. Étape 2b
+    . Étape 3
 
-    . level 1
-    .. level 2
-    ... level 3
-    .... level 4
-    ..... level 5
-    . level 1
+    . niveau 1
+    ... niveau 2
+    ... niveau 3
+    .... niveau 4
+    ..... niveau 5
+    . niveau 1
 
-Mixed list::
+Liste mixte : :
 
-    Operating Systems::
-    Linux:::
+    Systèmes d'exploitation : :
+    Linux:: :
         . Fedora
-        * Desktop
+        * Bureau
         . Ubuntu
         * Desktop
-        * Server
-    BSD:::
+        * Serveur
+    BSD:: :
         . FreeBSD
         . NetBSD
 
-    Cloud Providers::
-    PaaS:::
+    Fournisseurs de cloud :: :
+    PaaS : : :
         . OpenShift
         . CloudBees
-    IaaS:::
+    IaaS :: :
         . Amazon EC2
         . Rackspace
 
-Checklist::
+Liste de contrôle: :
 
-    * [*] checked
-    * [x] also checked
-    * [ ] not checked
-    *     normal list item
+    * [*] vérifié
+    * [x] également vérifié
+    * [ ] non vérifié
+    * élément normal de la liste
 
-Links
+Liens
 ~~~~~
 
-External::
+Externe : :
 
-    https://asciidoctor.org - automatic!
+    https://asciidoctor.org - automatique !
 
-    https://asciidoctor.org[Asciidoctor]
+    https://asciidoctor.org [Asciidoctor]
 
-    https://github.com/asciidoctor[Asciidoctor @ *GitHub*]
+    https://github.com/asciidoctor [Asciidoctor @ *GitHub*]
 
-Relative::
+Relatif: :
 
-    link:index.html[Docs]
+    link:index.html [Docs]
 
-Inline anchors::
+Ancres en ligne : :
 
-    [[bookmark-a]]Inline anchors make arbitrary content referenceable.
+    [[bookmark-a]]Les ancres en ligne permettent de référencer un contenu arbitraire.
 
-    [#bookmark-b]#Inline anchors can be applied to a phrase like this one.#
+    [#bookmark-b]#Les ancres en ligne peuvent être appliquées à une phrase comme celle-ci.#
 
-    anchor:bookmark-c[]Use a cross reference to link to this location.
+    anchor:bookmark-c[]Utilisez une référence croisée pour créer un lien vers cet emplacement.
 
-    [[bookmark-d,last paragraph]]The xreflabel attribute will be used as link text in the cross-reference link.
+    [[bookmark-d,dernier paragraphe]]L'attribut xreflabel sera utilisé comme texte de lien dans le lien de référence croisée.
 
-Internal cross-references::
+Références croisées internes: :
 
-    See <<paragraphs>> to learn how to write paragraphs.
+    Voir <<paragraphes>> pour apprendre à rédiger des paragraphes.
 
-    Learn how to organize the document into <<section-titles,sections>>.
+    Apprenez à organiser le document en <<titres de section,sections>>.
 
 Images
 ~~~~~~
 
-Block::
+Bloc: :
 
     image::sunset.jpg[]
 
-    image::sunset.jpg[Sunset]
+    image::sunset.jpg [Coucher de soleil]
 
-    .A mountain sunset
+    Un coucher de soleil en montagne
     [#img-sunset]
-    [caption="Figure 1: ",link=https://www.flickr.com/photos/javh/5448336655]
-    image::sunset.jpg[Sunset,300,200]
+    [caption="Figure 1 : ",link=https://www.flickr.com/photos/javh/5448336655]
+    image::sunset.jpg [Coucher de soleil,300,200]
 
-Inline::
+En ligne: :
 
-    Click image:icons/play.png[Play, title="Play"] to get the party started.
+    Cliquez sur image:icons/play.png [Play, title="Play"] pour que la fête commence.
 
-    Click image:icons/pause.png[title="Pause"] when you need a break.
+    Cliquez sur image:icons/pause.png [title="Pause"] lorsque vous avez besoin d'une pause.
 
-    image:sunset.jpg[Sunset,150,150,role="right"] What a beautiful sunset!
+    image:sunset.jpg [Sunset,150,150,role="right"] Quel beau coucher de soleil !
 
-Source Code
+Code source
 ~~~~~~~~~~~
 
-Code block with title and syntax highlighting::
+Bloc de code avec titre et coloration syntaxique : :
 
     .app.rb
     [source,ruby]
     ----
-    require 'sinatra'
+    Requiert 'sinatra'.
 
     get '/hi' do
-    "Hello World!"
-    end
+    "Hello World !"
+    fin
     ----
 
-Code block with callouts::
+Bloc de code avec callouts: :
 
     [source,ruby]
     ----
-    require 'sinatra' // <1>
+    nécessite 'sinatra' // <1>
 
     get '/hi' do // <2>
-    "Hello World!" // <3>
-    end
+    "Hello World !" // <3>
+    fin
     ----
-    <1> Library import
-    <2> URL mapping
-    <3> HTTP response body
+    <1> Importation de la bibliothèque
+    <2> Mappage d'URL
+    <3> Corps de la réponse HTTP
 
 
 Tables
 ~~~~~~
 
-Table with a title, three columns, a header, and two rows of content::
+Tableau avec un titre, trois colonnes, un en-tête et deux rangées de contenu: :
 
-    .Table Title
+    .Titre de la table
     |===
-    |Name of Column 1 |Name of Column 2 |Name of Column 3 
+    |Nom de la colonne 1 |Nom de la colonne 2 |Nom de la colonne 3 
 
-    |Cell in column 1, row 1
-    |Cell in column 2, row 1
-    |Cell in column 3, row 1
+    |Cellule de la colonne 1, ligne 1
+    |Cellule de la colonne 2, rangée 1
+    |Cellule de la colonne 3, rangée 1
 
-    |Cell in column 1, row 2
-    |Cell in column 2, row 2
-    |Cell in column 3, row 2
+    |Cellule de la colonne 1, rangée 2
+    |Cellule de la colonne 2, rangée 2
+    |Cellule de la colonne 3, rangée 2
     |===
 
 Admonitions
 ~~~~~~~~~~~
 
-AsciiDoc provides five admonition style labels out-of-the-box::
+AsciiDoc fournit cinq étiquettes de style admonition prêtes à l'emploi : :
 
-    NOTE: Please note that...
+    NOTE : Veuillez noter que...
 
-    TIP: Pro tip...
+    TIP : Un conseil de pro...
 
-    IMPORTANT: Don't forget...
+    IMPORTANT : N'oubliez pas...
 
-    WARNING: Watch out for...
+    AVERTISSEMENT : Faites attention à...
 
-    CAUTION: Ensure that...
+    ATTENTION : Assurez-vous que...
 
-Admonitions can also encapsulate any block content::
+Les admonitions peuvent également encapsuler tout contenu de bloc: :
 
     [IMPORTANT] 
-    .Feeding the Werewolves
+    Nourrir les loups-garous
     ==== 
-    While werewolves are hardy community members, keep in mind the following dietary concerns:
+    Bien que les loups-garous soient des membres robustes de la communauté, gardez à l'esprit les préoccupations diététiques suivantes :
 
-    . They are allergic to cinnamon.
-    . More than two glasses of orange juice in 24 hours makes them howl in harmony with alarms and sirens.
-    . Celery makes them sad.
+    . Ils sont allergiques à la cannelle.
+    . Plus de deux verres de jus d'orange en 24 heures les font hurler en harmonie avec les alarmes et les sirènes.
+    . Le céleri les rend tristes.
     ====
 
-Table of Contents
+Table des matières
 ~~~~~~~~~~~~~~~~~
 
-Document with ToC::
+Document avec ToC: :
 
-    = AsciiDoc Writer's Guide
+    = Guide du rédacteur d'AsciiDoc
     Doc Writer <doc.writer@asciidoctor.org>
     v1.0, 2019-08-01
-    :toc:
+    :toc :
 
-Document with ToC positioned on the right::
+Document avec TdC positionné à droite : :
 
     = AsciiDoc Writer's Guide
     Doc Writer <doc.writer@asciidoctor.org>
     v1.0, 2014-08-01
-    :toc: right
+    :toc : droite
 
-Include Files
+Inclure les fichiers
 ~~~~~~~~~~~~~
 
-::
+: :
 
-    = Reference Documentation
-    Lead Developer
+    = Documentation de référence
+    Développeur principal
 
-    This is documentation for project X.
+    Ceci est la documentation du projet X.
 
     include::basics.adoc[]
 
@@ -317,9 +317,9 @@ Include Files
     include::https://raw.githubusercontent.com/asciidoctor/asciidoctor/master/README.adoc[]
 
 
-Resources
+Ressources
 ---------
 * `AsciiDoc <http://asciidoc.org>`_ 
 * `AsciiDoc Cheatsheet <https://powerman.name/doc/asciidoc>`_
 * `Asciidoctor <https://asciidoctor.org>`_
-* `AsciiDoctor Syntax Quick Reference <https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/>`_
+* `AsciiDoctor Référence rapide à la syntaxe <https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/>`_
