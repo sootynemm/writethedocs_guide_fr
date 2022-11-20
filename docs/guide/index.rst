@@ -1,167 +1,167 @@
 ===================
-Documentation Guide
+Guide de la documentation
 ===================
 
-This guide gathers the collective wisdom of the Write the Docs community around best practices for creating software documentation.
+Ce guide rassemble la sagesse collective de la communauté Write the Docs autour des meilleures pratiques de création de documentation logicielle.
 
-**This is a living, breathing guide.** If you'd like to contribute, take a look at the :doc:`guidelines for contributing to the guide <contributing>`. If you have any questions about contributing, you can send them along to guide@writethedocs.org.
+**Si vous souhaitez contribuer, jetez un œil au :doc:`guidelines for contributing to the guide <contributing>`. Si vous avez des questions sur la contribution, vous pouvez les envoyer à guide@writethedocs.org.
 
-Also feel free to send us any additions in any format to support@writethedocs.org.
+N'hésitez pas non plus à nous envoyer vos ajouts, quel que soit le format, à support@writethedocs.org.
 
-New to Caring About Documentation?
+Vous êtes nouveau sur Caring About Documentation ?
 ----------------------------------
 
-.. toctree::
-   :maxdepth: 2
+.. toctree: :
+   :maxdepth : 2
 
-   writing/beginners-guide-to-docs
-   starting
+   écriture/guide-documentation pour débutants
+   démarrage
    writing/mindshare
-   writing/docs-principles
-   imposter
+   writing/docs-principes
+   imposteur
 
 
-Foundational Resources
+Ressources fondamentales
 ----------------------
 
-.. toctree::
-   :maxdepth: 2
+.. toctree: :
+   :maxdepth : 2
 
-   writing/style-guides
-   writing/accessibility
-   writing/reducing-bias
+   écriture/guides de style
+   rédaction/accessibilité
+   rédaction/réduction des préjugés
 
-* Structuring your Documentation
+* Structurer votre documentation
 
-Approaches to Creating Docs
+Approches de la création de documents
 ---------------------------
 
-.. toctree::
-   :maxdepth: 2
+.. toctree: :
+   :maxdepth : 2
 
    docs-as-code
    doc-ops
-   Producing documentation inside a Support team <writing/support-team>
-   Starting-a-new-doc
+   Produire de la documentation au sein d'une équipe de support <writing/support-team>
+   Commencer un nouveau document
 
-* Documentation and product development
-* Who writes the docs?
+* Documentation et développement de produits
+* Qui écrit les documents ?
 
-Markup Languages
+Langages de balisage
 ----------------
 
-.. toctree::
-   :maxdepth: 2
+.. toctree: :
+   :maxdepth : 2
 
-   writing/markdown
-   writing/reStructuredText
-   writing/xml
-   writing/asciidoc
+   écriture/markdown
+   écriture/reStructuredText
+   écriture/xml
+   écriture/asciidoc
 
-Tools of the Trade
+Les outils du métier
 ------------------
 
-.. toctree::
-   :maxdepth: 2
+.. toctree: :
+   :maxdepth : 2
 
-   tools/index
+   outils/index
    learn-git-contribute
 
-* Dictionaries
+* Dictionnaires
     * `Merriam-Webster <https://www.merriam-webster.com/>`_
-    *  https://www.dictionary.com | https://www.thesaurus.com | https://www.vocabulary.com
-    * `Linguee <https://www.linguee.com/>`_ (phrases/idioms)
-    * `Lexique Pro <http://www.lexiquepro.com/>`_ (offline dictionary/term list builder…dated)
-* Grammar and Complexity
-    * `Center for plain language <https://centerforplainlanguage.org/>`_
+    * https://www.dictionary.com | https://www.thesaurus.com | https://www.vocabulary.com
+    * `Linguee <https://www.linguee.com/>`_ (phrases/idiomes)
+    * `Lexique Pro <http://www.lexiquepro.com/>`_ (dictionnaire hors ligne/constructeur de liste de termes...daté)
+* Grammaire et complexité
+    * `Center for plain language <https://centerforplainlanguage.org/>`_ (Centre pour le langage clair)
     * `Simple English Checker <https://www.online-utility.org/english/simple_basic_helper.jsp>`_
     * `Acrolinx <https://www.acrolinx.com/>`_
     * `Hemingway Editor <http://www.hemingwayapp.com/>`_
     * `Grammarly <https://www.grammarly.com/>`_
-* SEO (Search Engine Optimization)
+* SEO (Optimisation des moteurs de recherche)
     * `Headline Analyzer - <https://coschedule.com/headline-analyzer>`_
-* Translation Tools
+* Outils de traduction
     * `Google Translate <https://translate.google.com>`_
     * https://www.deepl.com/translator
     * `X-bench <https://www.xbench.net/>`_
-* Keeping your documentation up to date
+* Maintenir votre documentation à jour
 * Jekyll
 
-Documentation Guides
+Guides de documentation
 --------------------
 
 * `Dozuki Guide to Technical Writing <https://www.dozuki.com/tech_writing/>`_
-* `Hitchhiker’s Guide to Documentation <https://docs-guide.readthedocs.io/en/latest/>`_
+* `Guide de l'auto-stoppeur pour la documentation <https://docs-guide.readthedocs.io/en/latest/>`_
 * `Wikiversity Technical Writing <https://en.wikiversity.org/wiki/Technical_writing>`_
 * `Write the Docs <http://www.writethedocs.org/guide/>`_
 
-.. _api-documentation:
+.. _api-documentation :
 
-API Documentation
+Documentation des API
 -----------------
 
-.. toctree::
-   :maxdepth: 2
+.. toctree: :
+   :maxdepth : 2
 
-   api/languages
-   api/generating-documents
+   api/langues
+   api/générer des documents
    api/testing
 
-UI Text
+Texte de l'interface utilisateur
 -----------------
 
-.. toctree::
-   :maxdepth: 2
+.. toctree: :
+   :maxdepth : 2
 
-   ux-writing
+   ux-écriture
 
 Distribution
 ------------
 
-* Common Output formats
-* Documentation Styles
-    - Slate
-    - Read the Docs Theme
+* Formats de sortie communs
+* Styles de documentation
+    - Ardoise
+    - Thème Lire la documentation
     - Alabaster
 
-Writing Environments
+Environnements d'écriture
 --------------------
 
-* Text Editors
+* Éditeurs de texte
 * IDEs
-* Live Previews
+* Prévisualisations en direct
 
-Talks & slide decks
+Exposés et diaporamas
 -------------------
 
-.. toctree::
-   :maxdepth: 2
+.. toctree: :
+   :maxdepth : 2
 
-   presentations/index
+   présentations/index
 
-Examples
+Exemples
 --------
 
-Documentation comes in many variations. Here are some examples to inspire you:
+La documentation se décline en de nombreuses variantes. Voici quelques exemples pour vous inspirer :
 
-* `Stripe <https://stripe.com/docs>`_ Great example of API docs
-* `Google Material Design <https://material.io/design/>`_ Good examples of different layouts
-* `IBM Knowledge Center <https://www.ibm.com/support/knowledgecenter/en/>`_ solid examples of code that isn’t necessarily API
+* `Stripe <https://stripe.com/docs>`_ Excellent exemple de docs sur les APIs.
+* `Google Material Design <https://material.io/design/>`_ Bons exemples de différentes mises en page.
+* `IBM Knowledge Center <https://www.ibm.com/support/knowledgecenter/en/>`_ solides exemples de code qui n'est pas nécessairement une API.
 
-Additional Notes
+Notes supplémentaires
 ----------------
 
-.. toctree::
-   :maxdepth: 2
+.. toctree: :
+   :maxdepth : 2
 
-   about/index
-   contributing
+   à propos de/index
+   contribution
 
-Write the Docs Resources
+Ressources pour écrire les documents
 ------------------------
 
-* Conference: https://www.writethedocs.org/
-* Slack: `Write the Docs <http://slack.writethedocs.org/>`__
-* Twitter: http://twitter.com/writethedocs
-* Issues & feature requests: https://github.com/writethedocs/docs/issues
-* Source repository: https://github.com/writethedocs/docs
+* Conférence : https://www.writethedocs.org/
+* Slack : `Write the Docs <http://slack.writethedocs.org/>`__
+* Twitter : http://twitter.com/writethedocs
+* Questions et demandes de fonctionnalités : https://github.com/writethedocs/docs/issues
+* Dépôt des sources : https://github.com/writethedocs/docs
