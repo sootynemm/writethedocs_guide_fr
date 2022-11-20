@@ -1,102 +1,102 @@
-# Introduction to Markdown
+## Introduction à Markdown
 
-## What is Markdown?
+## Qu'est-ce que Markdown ?
 
-Markdown is a free markup language with simple formatting syntax. Use it for creating webpages, documents or any text that needs to be transformed into other formats like HTML.
+Markdown est un langage de balisage libre doté d'une syntaxe de formatage simple. Utilisez-le pour créer des pages Web, des documents ou tout texte devant être transformé dans d'autres formats comme le HTML.
 
-## Why use Markdown?
+## Pourquoi utiliser le format Markdown ?
 
-It makes it easier for non-tech writers to produce documentation that can be collaborative and flexible at the same time.
+Il permet aux rédacteurs non techniques de produire plus facilement une documentation à la fois collaborative et flexible.
 
-## How to use Markdown
+## Comment utiliser le format Markdown
 
-### Formatting text in Markdown
+### Formatage du texte en Markdown
 
-- To format the text, follow these rules:
-  - For italics, wrap the item with one star on each side: `*one star on each side*`.
-  - For bold text, wrap the item with two stars on each side: `**two stars on each side**`.
-  - For striking through text in GitHub Markdown, wrap the item in two tildes: `~~strikethrough~~`.
-  - For links, wrap link text in brackets [ ], and then wrap the URL in parentheses ( ): `[This text links to WritetheDocs](https://www.writethedocs.org)`.
+- Pour mettre en forme le texte, suivez les règles suivantes :
+  - Pour l'italique, entourez l'élément d'une étoile de chaque côté : `*une étoile de chaque côté*`.
+  - Pour le texte en gras, placez deux étoiles de chaque côté de l'élément : `**deux étoiles de chaque côté**`.
+  - Pour barrer le texte dans le format GitHub Markdown, placez deux tildes autour de l'élément : `~~strikethrough~~`.
+  - Pour les liens, mettez le texte du lien entre crochets [ ], puis mettez l'URL entre parenthèses ( ) : `[Ce texte est lié à WritetheDocs](https://www.writethedocs.org)`.
 
-The formatted text will look like this:
+Le texte formaté ressemblera à ceci :
 
-- For italics, wrap the item with one star on each side, like this: *one star on each side*.
-- For bold letters, wrap the item with two stars on each side: **two stars on each side**.
-- For striking through text in GitHub Markdown, wrap the item in two tildes: ~~strikethrough~~.
-- For links, wrap link text in brackets [ ], and then wrap the URL in parentheses ( ): [This text links to WritetheDocs](https://www.writethedocs.org/).
+- Pour l'italique, entourez l'élément d'une étoile de chaque côté, comme ceci : *une étoile de chaque côté*.
+- Pour les lettres en gras, entourez l'élément de deux étoiles de chaque côté : **deux étoiles de chaque côté**.
+- Pour barrer le texte dans le format GitHub Markdown, placez deux tildes autour de l'élément : ~~strikethrough~~.
+- Pour les liens, mettez le texte du lien entre crochets [ ], puis mettez l'URL entre parenthèses ( ) : [Ce texte est lié à WritetheDocs] (https://www.writethedocs.org/).
 
-### Adding images
+### Ajout d'images
 
-Adding images is like adding links. Just add an exclamation mark at the beginning of the line:
+L'ajout d'images est similaire à l'ajout de liens. Il suffit d'ajouter un point d'exclamation au début de la ligne :
 
 `![alt text](https://pbs.twimg.com/profile_images/556169790587281409/AwkaVrhP_400x400.png).`
 
-The image will look like this:
+L'image ressemblera à ceci :
 
 ![alt text](https://pbs.twimg.com/profile_images/556169790587281409/AwkaVrhP_400x400.png).
 
-### How to produce lists?
+### Comment produire des listes ?
 
-To add a bulleted or unordered list of items:
-
-```
-- Just add a dash first and then write a text.
-- If you add another dash in the following line, you will have another item in the list.
-  - If you add four spaces or use a tab key, you will create an indented list.
-    - If you need to insert an indented list within an intended one, just press a tab key again.
-```
-
-The formatted text will look like this:
-
-- Just add a dash first and then write a text.
-- If you add another dash in the following line, you will have another item in the list.
-  - If you add four spaces or use a tab key, you will create an indented list.
-    - If you need to insert an indented list within an intended one, just press a tab key again.
-
-To add a numbered or ordered list of items:
+Pour ajouter une liste d'éléments à puces ou non ordonnée :
 
 ```
-1. Just type a number followed by a dot.
-2. If you want to add a second item, just type in another number followed by a dot.
-1. If you make a mistake when typing numbers, fear not, Markdown will correct it for you.
-    1. If you press a tab key or type four spaces, you will get an indented list and the numbering
-    will start from scratch.
-        1. If you want to insert an indented numbered list within an existing indented numbered one,
-        just press the tab key again.
-            - If need be, you can also add an indented unordered list within an indented numbered one, an vice versa,
-            by pressing a tab key and typing a dash.
+- Il suffit d'ajouter un tiret d'abord, puis d'écrire un texte.
+- Si vous ajoutez un autre tiret dans la ligne suivante, vous aurez un autre élément dans la liste.
+  - Si vous ajoutez quatre espaces ou utilisez une touche de tabulation, vous créerez une liste en retrait.
+    - Si vous devez insérer une liste en retrait à l'intérieur d'une liste prévue, il vous suffit d'appuyer à nouveau sur la touche de tabulation.
 ```
 
-The formatted text will look like this:
+Le texte formaté ressemblera à ceci :
 
-1. Just type a number followed by a dot.
-2. If you want to add a second item, just type in another number followed by a dot.
-1. If you make a mistake when typing numbers, fear not, Markdown will correct it for you.
-    1. If you press a tab key or type four spaces, you will get an indented list and the numbering will start from scratch.
-        1. If you want to insert an indented numbered list within an existing indented numbered one,
-        just press the tab key again.
-            - If need be, you can also add an indented unordered list within an indented numbered one, an vice versa,
-            by pressing a tab key and typing a dash.
+- Il suffit d'ajouter un tiret d'abord, puis d'écrire un texte.
+- Si vous ajoutez un autre tiret dans la ligne suivante, vous aurez un autre élément dans la liste.
+  - Si vous ajoutez quatre espaces ou utilisez une touche de tabulation, vous créerez une liste en retrait.
+    - Si vous devez insérer une liste en retrait à l'intérieur d'une liste prévue, il vous suffit d'appuyer à nouveau sur la touche de tabulation.
 
-### Headers
+Pour ajouter une liste d'éléments numérotés ou ordonnés :
 
-If you have longer documents, it is better to give them some structure, which you can actually achieve with headers. Do this with hashes (#):
+```
+1. Tapez simplement un numéro suivi d'un point.
+2. Si vous voulez ajouter un deuxième élément, tapez simplement un autre nombre suivi d'un point.
+1. Si vous faites une erreur en tapant des chiffres, n'ayez crainte, Markdown la corrigera pour vous.
+    1. Si vous appuyez sur une touche de tabulation ou tapez quatre espaces, vous obtiendrez une liste indentée et la numérotation recommencera à zéro.
+    recommencera à zéro.
+        1. Si vous voulez insérer une liste numérotée en retrait dans une liste numérotée en retrait existante,
+        il suffit d'appuyer à nouveau sur la touche de tabulation.
+            - Si nécessaire, vous pouvez également ajouter une liste non ordonnée en retrait à l'intérieur d'une liste numérotée en retrait, et vice versa,
+            en appuyant sur la touche de tabulation et en tapant un tiret.
+```
 
-`# This is a first-tier header`
+Le texte formaté ressemblera à ceci :
 
-`## This is a second-tier header`
+1. Tapez simplement un nombre suivi d'un point.
+2. Si vous voulez ajouter un deuxième élément, il suffit de taper un autre nombre suivi d'un point.
+1. Si vous faites une erreur en tapant des chiffres, n'ayez crainte, Markdown la corrigera pour vous.
+    1. Si vous appuyez sur une touche de tabulation ou tapez quatre espaces, vous obtiendrez une liste indentée et la numérotation recommencera à zéro.
+        1. Si vous voulez insérer une liste numérotée en retrait dans une liste numérotée en retrait existante,
+        il suffit d'appuyer à nouveau sur la touche de tabulation.
+            - Si nécessaire, vous pouvez également ajouter une liste non ordonnée en retrait à l'intérieur d'une liste numérotée en retrait, et vice versa,
+            en appuyant sur la touche de tabulation et en tapant un tiret.
 
-`### This is a third-tier header`
+### En-têtes
 
-And so on, up to a sixth-tier header.
+Si vos documents sont longs, il est préférable de leur donner une certaine structure, ce que vous pouvez faire avec des en-têtes. Faites-le avec des hachages (#) :
 
-The formatted text will look like this:
+`# Ceci est un en-tête de premier niveau`
+
+`## Ceci est un en-tête de second niveau`
+
+`### Ceci est un en-tête de troisième niveau`
+
+Et ainsi de suite, jusqu'à un en-tête de sixième niveau.
+
+Le texte formaté ressemblera à ceci :
 
 ![](/_static/img/guide/markdown-headers.png)
 
-### Horizontal Rule
+### Règle horizontale
 
-Create a horizontal rule with three or more hyphens, asterisks, or underscores on a line:
+Créez une règle horizontale avec trois traits d'union, astérisques ou traits de soulignement ou plus sur une ligne :
 
 `---`
 
@@ -104,51 +104,51 @@ Create a horizontal rule with three or more hyphens, asterisks, or underscores o
 
 `___`
 
-The formatted text will look like this:
+Le texte formaté ressemblera à ceci :
 
 ---
 
-### Quotes and Code
+### Citations et code
 
-Add a quotation with the > character at the beginning of each line:
+Ajoutez une citation avec le caractère > au début de chaque ligne :
 
 ```
-> “I make Jessica Simpson look like a rock scientist.”
+> "Je fais passer Jessica Simpson pour une scientifique du rock."
 
-> —Tara Reid, actress
+> -Tara Reid, actrice
 ```
 
-The quote will look like this:
+La citation ressemblera à ceci :
 
-> “I make Jessica Simpson look like a rock scientist.”
+> "Je fais ressembler Jessica Simpson à une scientifique du rock."
 
-> —Tara Reid, actress
+> -Tara Reid, actrice
 
-And finally, insert code into your text with one apostrophe on each side when adding code within one line, or with 3 apostrophes opening and closing your code block, like this:
+Enfin, insérez du code dans votre texte en plaçant une apostrophe de chaque côté lorsque vous ajoutez du code sur une ligne, ou en plaçant trois apostrophes pour ouvrir et fermer votre bloc de code, comme ceci :
 
-This line contains \`code\`
+Cette ligne contient du ``code``.
 
-This is a code section:
+Voici une section de code :
 
 <pre>
 ```
-this is code
+Ceci est du code
 ```
 </pre>
 
-Which will look like this:
+Qui ressemblera à ceci :
 
-This line contains `code`
+Cette ligne contient du `code`.
 
-This is a code section:
+Ceci est une section de code :
 
 ```
-this is code
+Ceci est du code
 ```
 
-You can also "cheat", adding HTML-formatted text when markdown seems too limited, but first look at these resources to find solutions:
+Vous pouvez également "tricher", en ajoutant du texte au format HTML lorsque le format démarque semble trop limité, mais consultez d'abord ces ressources pour trouver des solutions :
 
-### Resources
+#### Ressources
 
 - [The fundamental guide for using Markdown](https://daringfireball.net/projects/markdown/)
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
