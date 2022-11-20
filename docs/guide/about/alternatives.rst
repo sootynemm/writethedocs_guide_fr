@@ -1,19 +1,18 @@
-.. _interesting-approaches:
+.. _approches-intéressantes :
 
-Interesting approaches to documentation
+Approches intéressantes de la documentation
 =======================================
 
-* Riak does a side by side comparison of the Dynamo paper and their
-  implementation: http://docs.basho.com/riak/1.2.0/references/dynamo/
+* Riak fait une comparaison côte à côte de l'article sur Dynamo et de leur
+  implémentation : http://docs.basho.com/riak/1.2.0/references/dynamo/
 
-* Live notes of conferences as they happen:
+* Notes en direct des conférences au fur et à mesure qu'elles se déroulent :
   http://pydanny-event-notes.readthedocs.org/en/latest/
 
-* Teaching / Books:
+* Enseignement / Livres :
 
   * http://ericholscher.com/blog/2012/dec/1/interesting-projects-read-docs-teaching/
 
-* This GitHub repo has some great examples of documentation done well:
+* Ce repo GitHub contient de très bons exemples de documentation bien faite :
 
-  *  https://github.com/PharkMillups/beautiful-docs
-
+  * https://github.com/PharkMillups/beautiful-docs
