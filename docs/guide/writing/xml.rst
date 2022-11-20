@@ -1,62 +1,62 @@
 ===================
-Introduction to XML
+Introduction à XML
 ===================
 
-What is XML?
+Qu'est-ce que le XML ?
 ============
 
-XML is a meta markup language developed for the Internet. It is derived from SGML (Standard Generalized Markup Language), the mother of all markup languages. XML was designed to store and transport data. Unlike HTML that defines how data looks, XML defines what data is. Users can use XML "as is" or adapt it to their needs by defining new tags or building blocks.
+Le XML est un méta-langage de balisage développé pour l'Internet. Il est dérivé du SGML (Standard Generalized Markup Language), la mère de tous les langages de balisage. Le XML a été conçu pour stocker et transporter des données. Contrairement au HTML qui définit l'apparence des données, le XML définit ce que sont les données. Les utilisateurs peuvent utiliser le XML "tel quel" ou l'adapter à leurs besoins en définissant de nouvelles balises ou de nouveaux blocs de construction.
 
-XML defines a set of rules to encode data in a format that is both human and machine readable. That is why XML syntax is used in Microsoft Office, Apple iWork, LibreOffice, RSS, SVG, and many other tools.
+Le XML définit un ensemble de règles permettant d'encoder les données dans un format lisible par l'homme et par la machine. C'est pourquoi la syntaxe XML est utilisée dans Microsoft Office, Apple iWork, LibreOffice, RSS, SVG et de nombreux autres outils.
 
-Why use XML?
+Pourquoi utiliser XML ?
 ============
 
-Because you define your own tags and attributes, you can use XML to create essentially your own markup language. Defining these unique tags and attributes also gives structure to your document.
+Comme vous définissez vos propres balises et attributs, vous pouvez utiliser le XML pour créer essentiellement votre propre langage de balisage. La définition de ces balises et attributs uniques donne également une structure à votre document.
 
-Additionally, XML stores data in plain text. This makes it independent on the software and hardware to which the data wrapped in XML is being sent, received, and stored. This design also makes it easier to update to new browsers, new operating systems, and new software without losing data. 
+En outre, le XML stocke les données en texte clair. Cela le rend indépendant du logiciel et du matériel sur lesquels les données enveloppées dans le XML sont envoyées, reçues et stockées. Cette conception facilite également la mise à jour vers de nouveaux navigateurs, de nouveaux systèmes d'exploitation et de nouveaux logiciels sans perte de données. 
 
-How to use XML
+Comment utiliser le XML
 ==============
 
-Let's say we want to create a table laying out the trees in a certain region. We could define a <tree> tag that would have the names of the trees, a <height> tag, a <type> tag, and more. These tags give structure to our document and it's still human-readable.::
+Disons que nous voulons créer un tableau présentant les arbres d'une certaine région. Nous pourrions définir une balise <tree> qui contiendrait les noms des arbres, une balise <height>, une balise <type>, etc. Ces balises donnent une structure à notre document et celui-ci reste lisible par l'homme.: :
 
-    <tree>
-        <name> Sugar Maple </name>
-        <height units="m"> 30 </height>
-        <type> Deciduous </type>
-    </tree>
+    <arbre>
+        <nom>Erable à sucre</nom>
+        <hauteur unités="m"> 30 </hauteur>
+        <type> Feuilles caduques </type>
+    </arbre>
 
-    <tree>
-        <name> Black Walnut </name>
-        <height units="m"> 16 </height>
-        <type> Deciduous </type>
+    <arbre>
+        <nom>Noyer noir</nom>
+        <b>Unités de hauteur="m"> 16 </height>
+        </type> Feuilles caduques </type>.
     </tree>
     
-XML is often used in concert with HTML, CSS, and JavaScript.
+Le XML est souvent utilisé de concert avec HTML, CSS et JavaScript.
 
-How to display XML
+Comment afficher le XML
 ------------------
 
-XML needs a stylesheet to be readable and usable. Stylesheets for XML work much the same as those for HTML. The difference is that we assign styles to our unique XML tags, not to the standard tags used in HTML.::
+Le XML a besoin d'une feuille de style pour être lisible et utilisable. Les feuilles de style pour XML fonctionnent à peu près de la même manière que celles pour HTML. La différence est que nous attribuons des styles à nos balises XML uniques, et non aux balises standard utilisées en HTML.: :
 
     <?xml-stylesheet type="text/css" href="nutrition.css"?>
  
-    name {
-        font-family: "Cooper Black", serif;
-        font-size: 3em;
-        font-style: bold;
+    nom {
+        font-family : " Cooper Black ", serif ;
+        taille de la police : 3em ;
+        font-style : bold ;
     }
     
     height, type {
-        font-family: "Bodoni", serif;
-        font-size: 1em;
-        font-style: none;
+        font-family : "Bodoni", serif ;
+        taille de la police : 1em ;
+        font-style : none ;
     }        
  
-Resources
+Ressources
 =========
 
-`W3Schools tutorial on XML <https://www.w3schools.com/xml/default.asp>`_
+`Tutoriel W3Schools sur le XML <https://www.w3schools.com/xml/default.asp>`_
 
-`Using XML by A List Apart <https://alistapart.com/article/usingxml/#comments>`_
+`Utiliser XML par A List Apart <https://alistapart.com/article/usingxml/#comments>`_
