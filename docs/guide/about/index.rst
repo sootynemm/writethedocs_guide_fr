@@ -1,10 +1,10 @@
-About Write the Docs
+A propos de Write the Docs
 ====================
 
-Here is information about the Write the Docs project itself.
+Voici des informations sur le projet Write the Docs lui-même.
 
-.. toctree::
+.. toctree: :
 
    vision
    alternatives
-   community
+   communauté
