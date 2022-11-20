@@ -2,22 +2,22 @@
 Vision
 ======
 
-There exists a group of documentarians in the world. Up until this point, they haven't had a central place to meet each other, and coalesce into a community. We are providing the space to allow this to happen, both in person and online.
+Il existe un groupe de documentaristes dans le monde. Jusqu'à présent, ils n'avaient pas d'endroit central où se rencontrer et se regrouper en une communauté. Nous fournissons l'espace nécessaire pour que cela se produise, à la fois en personne et en ligne.
 
-The time for all technical people to care about documentation is now. We've lived too long with awful instructions for the tools we use everyday. People should demand solid instruction of things that they use.
+Le moment est venu pour tous les techniciens de s'intéresser à la documentation. Nous avons vécu trop longtemps avec des instructions affreuses pour les outils que nous utilisons quotidiennement. Les gens devraient exiger des instructions solides pour les choses qu'ils utilisent.
 
-Writers
+Rédacteurs
 -------
 
-Documentation is how you share your creations with the world. If you want people to benefit from your work, they have to be able to use it. Help me, help you. Do something and change something.
+La documentation est la manière dont vous partagez vos créations avec le monde. Si vous voulez que les gens profitent de votre travail, ils doivent être capables de l'utiliser. Aidez-moi, aidez-vous. Faites quelque chose et changez quelque chose.
 
-**We believe it should be easy for people to start writing documentation. There should be straight-forward guides to getting started with good tools.**
+**Nous pensons qu'il devrait être facile pour les gens de commencer à écrire de la documentation. Il devrait y avoir des guides simples pour commencer à utiliser de bons outils**.
 
-Students
+Étudiants
 --------
 
-People who want to learn should be given the best possible tools for this job. We want to raise the standard of documentation to make it easier for people to learn about the things they want to do.
+Les personnes qui veulent apprendre doivent disposer des meilleurs outils possibles pour ce travail. Nous voulons élever le niveau de la documentation pour permettre aux gens d'apprendre plus facilement les choses qu'ils veulent faire.
 
-**We believe that there should be best practices around documentation. They should be simple, concise and easy to follow practical guidelines.**
+**Nous pensons qu'il devrait y avoir de bonnes pratiques en matière de documentation. Il devrait s'agir de directives pratiques simples, concises et faciles à suivre**.
 
-**We believe that knowledge should be available to all people, regardless of their language of choice. Documentation should be written in a way that allows it to be translated easily**
+**Nous pensons que les connaissances doivent être accessibles à tous, quelle que soit la langue choisie. La documentation doit être rédigée de manière à pouvoir être traduite facilement**.
