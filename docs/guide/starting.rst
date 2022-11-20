@@ -1,53 +1,52 @@
 ============
-Starting off
+A partir de
 ============
 
-So, you want to write the docs for your project?
+Vous voulez donc écrire la documentation de votre projet ?
 
-    *Where on earth do I start?*
+    *Qu'est-ce que je peux bien faire pour commencer?*
 
-Well, you've come to the write [sic] place.
+Eh bien, vous êtes arrivé au bon endroit.
 
-The goal here is to explain how to write docs,
-how to get the time to write docs,
-and what you should be striving for with those docs.
-A lot of projects are different, and a lot are the same.
-We will be covering the tactics for a few different groups.
+Le but ici est d'expliquer comment écrire de la documentation,
+comment trouver le temps d'écrire des documents,
+et ce que vous devez vous efforcer de faire avec ces documents.
+Beaucoup de projets sont différents, et beaucoup sont identiques.
+Nous allons couvrir les tactiques pour quelques groupes différents.
 
-Open source developers
+Développeurs de logiciels libres
 ----------------------
 
-You have some awesome open source code, but nobody knows how to use it.
-The chance of someone discovering and using your awesome code goes up
-greatly with good documentation.
+Vous avez un code source ouvert génial, mais personne ne sait comment l'utiliser.
+Une bonne documentation augmente considérablement les chances que quelqu'un découvre et utilise votre code génial.
+avec une bonne documentation.
 
-Start with the :doc:`writing/beginners-guide-to-docs`,
-which provides practical advice on getting started.
+Commencez par le :doc:`writing/beginners-guide-to-docs`,
+qui fournit des conseils pratiques pour débuter.
 
 
-Developers at a company
+Les développeurs d'une entreprise
 -----------------------
 
-You need help justifying writing documentation for your project.
-It seems the timelines you're given hardly allow any time to write tests,
-and docs always get put off until the end.
-Well, here are some ways that you can show value to your boss,
-and hopefully get the time to write the docs.
+Vous avez besoin d'aide pour justifier l'écriture de la documentation de votre projet.
+Il semble que les délais que l'on vous donne laissent à peine le temps d'écrire des tests,
+et la documentation est toujours repoussée à la fin.
+Eh bien, voici quelques façons de montrer votre valeur à votre patron,
+et, avec un peu de chance, obtenir le temps d'écrire les documents.
 
-Get started with :doc:`writing/mindshare`,
-which should give you a blueprint for how you can implement a documentation
-solution in your company.
+Commencez par :doc:`writing/mindshare`,
+qui devrait vous donner un aperçu de la façon dont vous pouvez mettre en œuvre une solution de documentation
+de documentation dans votre entreprise.
 
-Enterprise users
+Utilisateurs de l'entreprise
 ----------------
 
-You are a SAAS or Services company and you have developers as your target
-audience.
-If you don't have great documentation,
-your competitors will leave you in the dust.
-It will also jack up your support costs,
-because customers can't help themselves.
+Vous êtes une entreprise de SAAS ou de services et votre public cible est constitué de développeurs.
+public cible.
+Si vous n'avez pas une bonne documentation,
+vos concurrents vous laisseront dans la poussière.
+Cela fera également grimper vos coûts d'assistance,
+car les clients ne peuvent pas s'aider eux-mêmes.
 
-This page of :ref:`interesting-approaches` is a good starting point to see
-some documentation that is well done.
-
+Cette page de :ref:`interesting-approaches` est un bon point de départ pour voir
+une documentation bien faite.
