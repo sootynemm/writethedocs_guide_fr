@@ -1,45 +1,45 @@
-# Accessibility guidelines: for writing and beyond
+# Directives d'accessibilité : pour la rédaction et au-delà
 
-Accessibility is an important aspect of any good web project, and docs are no exception. As one advocate puts it, "... if the content design is simple, concise, and clear you are already doing a lot for both a11y and localization."
+L'accessibilité est un aspect important de tout bon projet web, et les docs ne font pas exception. Comme le dit un défenseur, "... si la conception du contenu est simple, concise et claire, vous faites déjà beaucoup pour l'a11y et la localisation."
 
-And to make this page as accessible as possible: the term `a11y` is what's called a numeronym, or shorthand in this case for "accessibility", where `11` is the number of letters between the `a` and the `y`.
+Et pour rendre cette page aussi accessible que possible : le terme " a11y " est ce qu'on appelle un numéronyme, ou un raccourci dans ce cas pour " accessibilité ", où " 11 " est le nombre de lettres entre le " a " et le " y ".
 
-See also [reducing bias in your writing](https://www.writethedocs.org/guide/writing/reducing-bias).
+Voir aussi [réduire les préjugés dans vos écrits] (https://www.writethedocs.org/guide/writing/reducing-bias).
 
-And for general writing style, see [style guides](https://www.writethedocs.org/guide/writing/style-guides/).
+Et pour le style d'écriture général, voir [guides de style](https://www.writethedocs.org/guide/writing/style-guides/).
 
-## Good introductions to accessibility
+## Bonnes introductions à l'accessibilité
 
-- [MDN Web Docs introduction to accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility)
-- [Accessibility for Everyone](https://abookapart.com/products/accessibility-for-everyone)
-- [Collection of resources for doc accessibility](http://ideaspring.ca//resources#h.p_X6ux0ojiyLwG)
-- [Introductory edX class from W3C, free](https://www.w3.org/WAI/fundamentals/foundations-course/)
+- Introduction à l'accessibilité dans les MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility)
+- L'accessibilité pour tous] (https://abookapart.com/products/accessibility-for-everyone)
+- Collection de ressources sur l'accessibilité des documents](http://ideaspring.ca//resources#h.p_X6ux0ojiyLwG)
+- [Cours d'introduction edX du W3C, gratuit](https://www.w3.org/WAI/fundamentals/foundations-course/)
 
-## More resources
+## Plus de ressources
 
-- [Web accessibility training and courses from Deque](https://dequeuniversity.com/)
-- [Web accessibility class from Google, free on Udacity](https://www.udacity.com/course/web-accessibility--ud891)
-- [Game UX guidelines from the BBC](https://www.bbc.co.uk/gel/guidelines/how-to-design-accessible-games)
-- [Mobile UX guidelines from the BBC](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/)
-- [Pan-European project on providing education on accessible design](https://moocap.gpii.eu/?page_id=839)
-- Web-a11y Slack (you'll need to google and find someone to DM, or please submit a PR to the WTD website repo if there's a better way to join)
+- Formation et cours sur l'accessibilité du Web proposés par Deque](https://dequeuniversity.com/)
+- Cours sur l'accessibilité du Web de Google, gratuit sur Udacity](https://www.udacity.com/course/web-accessibility--ud891)
+- Directives de la BBC en matière d'UX pour les jeux](https://www.bbc.co.uk/gel/guidelines/how-to-design-accessible-games)
+- Directives de la BBC en matière d'ergonomie mobile](https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/)
+- Projet paneuropéen d'enseignement de la conception accessible](https://moocap.gpii.eu/?page_id=839)
+- Web-a11y Slack (vous devrez chercher sur Google et trouver quelqu'un à contacter par DM, ou soumettre un PR au repo du site Web de la WTD s'il existe un meilleur moyen de se joindre à la communauté).
 
-## Exhaustive resources for web accessibility
+## Ressources exhaustives sur l'accessibilité du Web
 
-- [WebAIM, from the Center for Persons with Disabilities at Utah State University](https://webaim.org/)
-- [Collection of articles and other resources from Stark, a commercial a11y company](https://www.getstark.co/library/)
-- [IBM's Equal Access Toolkit](https://www.ibm.com/able/)
-
-
-Writing for accessibility includes making sure copy can be read by screenreaders, content organization, style and color of text emphasis, and more.
-
-- [MailChimp's writing style guide](https://styleguide.mailchimp.com/writing-for-accessibility/)
-- [A11Y Style Guide](https://a11y-style-guide.com/style-guide/)
-- [The Accessibility Cheatsheet](https://bitsofco.de/the-accessibility-cheatsheet/) by bitsofcode
-- [Microsoft Style Guide Accessibility Terms](https://docs.microsoft.com/en-us/style-guide/a-z-word-list-term-collections/term-collections/accessibility-terms)
+- WebAIM, du Centre pour les personnes handicapées de l'Université d'État de l'Utah](https://webaim.org/)
+- Collection d'articles et d'autres ressources de Stark, une société commerciale d'a11y](https://www.getstark.co/library/)
+- [Boîte à outils pour l'égalité d'accès d'IBM] (https://www.ibm.com/able/)
 
 
-## Relevant talks from Write the Docs:
+Pour écrire dans un souci d'accessibilité, il faut s'assurer que le texte peut être lu par les lecteurs d'écran, organiser le contenu, le style et la couleur du texte, etc.
+
+- Guide de style rédactionnel de MailChimp] (https://styleguide.mailchimp.com/writing-for-accessibility/)
+- Guide de style A11Y] (https://a11y-style-guide.com/style-guide/)
+- The Accessibility Cheatsheet](https://bitsofco.de/the-accessibility-cheatsheet/) par bitsofcode
+- [Termes d'accessibilité du guide de style Microsoft](https://docs.microsoft.com/en-us/style-guide/a-z-word-list-term-collections/term-collections/accessibility-terms)
+
+
+## Exposés pertinents de Write the Docs :
 
 - [Moving beyond empathy: a11y in documentation](https://www.writethedocs.org/videos/portland/2020/moving-beyond-empathy-a11y-in-documentation-alexandra-white/)
 - [A11y-Friendly Documentation](https://www.writethedocs.org/videos/prague/2018/a11y-friendly-documentation-carolyn-stransky/) at Write the Docs Prague 2018
