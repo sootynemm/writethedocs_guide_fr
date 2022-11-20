@@ -1,19 +1,19 @@
-Presentations
+Présentations
 -------------
 
-These presentations are available for anyone to give at a local user group or conference. We hope that you can use them to evangelize the idea of writing documentation.
+Ces présentations sont disponibles pour quiconque souhaite les donner à un groupe d'utilisateurs local ou à une conférence. Nous espérons que vous pourrez les utiliser pour évangéliser l'idée d'écrire de la documentation.
 
-If you have feedback or want to make improvements, please submit them to our repository on GitHub: https://github.com/writethedocs/docs/issues
+Si vous avez des commentaires ou souhaitez apporter des améliorations, veuillez les soumettre à notre dépôt sur GitHub : https://github.com/writethedocs/docs/issues.
 
-Theme
+Thème
 ~~~~~
 
-We ship a theme that allows your presentation to have the Write the Docs theme. They require a set of fonts that you'll need as well.
+Nous fournissons un thème qui permet à votre présentation d'avoir le thème Write the Docs. Il nécessite un ensemble de polices de caractères dont vous aurez également besoin.
 
-You can find the files here: https://github.com/writethedocs/www/tree/master/docs/guide/files/presentations
+Vous pouvez trouver les fichiers ici : https://github.com/writethedocs/www/tree/master/docs/guide/files/presentations
 
 
-Beginner Presentation
+Présentation pour débutants
 ~~~~~~~~~~~~~~~~~~~~~
 
-* Writing Docs: A beginners guide to writing documentation: https://github.com/writethedocs/www/tree/master/docs/guide/files/presentations
+* Écrire les Docs : Un guide pour débutants sur l'écriture de la documentation : https://github.com/writethedocs/www/tree/master/docs/guide/files/presentations
