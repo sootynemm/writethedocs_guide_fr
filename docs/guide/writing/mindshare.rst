@@ -1,61 +1,61 @@
-Building documentation mindshare in a company
+Créer une opinion sur la documentation dans une entreprise
 =============================================
 
-Having a culture of documentation inside of a company is a great thing. Building a culture around documentation however is a hard thing to do. This will be a guide with some information and suggestions for how to go about bringing good docs into a company.
+Avoir une culture de la documentation au sein d'une entreprise est une excellente chose. Cependant, construire une culture autour de la documentation est une chose difficile à faire. Ce guide contient des informations et des suggestions sur la manière d'introduire une bonne documentation dans une entreprise.
 
 
-State the problem
+Exposez le problème
 ------------------
 
-There are a lot of nebulous problems in communication inside of organizations. You want to start small with something that you can nail. When I've done this in the past, it looks something like this:
+Il y a beaucoup de problèmes nébuleux dans la communication au sein des organisations. Il faut commencer par quelque chose de concret. Quand je l'ai fait dans le passé, cela ressemblait à quelque chose comme ça :
 
-    We will solve the issue of documentation around internal project documentation in our Engineering organization.
+    Nous allons résoudre le problème de la documentation autour des projets internes dans notre organisation d'ingénierie.
 
-Which brings me to the next point.
+Ce qui m'amène au point suivant.
 
-Start in engineering
+Commencez par l'ingénierie
 --------------------
 
-Starting in the engineering organization I think is the simplest way to affect change on documentation culture. There are lots of other parts of an organization, but it's easier to get permission to work on just the internal stuff to engineering. Think things like:
+Commencer par l'organisation de l'ingénierie est, à mon avis, le moyen le plus simple de faire évoluer la culture de la documentation. Il y a beaucoup d'autres parties d'une organisation, mais il est plus facile d'obtenir la permission de travailler uniquement sur les aspects internes à l'ingénierie. Pensez à des choses comme :
 
-    * Project documentation
-    * Operations documentation
-        * Playbooks
-        * Monitoring Information
-    * Best Practices
-    * Style Guides
+    * Documentation de projet
+    * Documentation des opérations
+        * Livres de jeux
+        * Informations de surveillance
+    * Meilleures pratiques
+    * Guides de style
 
-Gather input
+Recueillir des données
 ------------
 
-You will want members from all of the teams in your organization to be invited to the planning meetings. They don't need to come, but you need to make sure it's an open and public discussion. This validates the outcome of the planning, and makes sure that you are taking into account all of the use cases of your team.
+Vous voudrez que des membres de toutes les équipes de votre organisation soient invités aux réunions de planification. Ils ne sont pas obligés de venir, mais vous devez vous assurer qu'il s'agit d'une discussion ouverte et publique. Cela permet de valider le résultat de la planification et de s'assurer que vous tenez compte de tous les cas d'utilisation de votre équipe.
 
-Build a taxonomy
+Créez une taxonomie
 ----------------
 
-A big problem with a lot of documentation systems is that they have been organized organically, AKA have no organization. If you build out a structure for people to start, and keep it consistent across projects, it will make everyones lives easier.
+L'un des problèmes majeurs de nombreux systèmes de documentation est qu'ils ont été organisés de manière organique, c'est-à-dire sans aucune organisation. Si vous mettez en place une structure de départ et que vous la maintenez cohérente d'un projet à l'autre, cela facilitera la vie de tout le monde.
 
-.. note:: You need to have an answer to the "Where do I put it?" question.
+... note : : Vous devez avoir une réponse à la question "Où dois-je le mettre ?".
 
-Make it easy
+Facilitez les choses
 -------------
 
-Getting started should be as easy and straight-forward as possible. Most people don't like change, and introducing new tooling and things will already rouse a negative response in some. This is why you need to make it as simple as possible to get started.
+La mise en route doit être aussi simple et directe que possible. La plupart des gens n'aiment pas le changement, et l'introduction de nouveaux outils et de nouvelles choses suscitera déjà une réaction négative chez certains. C'est pourquoi vous devez faire en sorte que la mise en route soit aussi simple que possible.
 
-Build templates
+Créez des modèles
 ~~~~~~~~~~~~~~~
 
-It should take about 5 seconds to get a basic outline of the documentation for a project started.
+Il faut environ 5 secondes pour établir un plan de base de la documentation d'un projet.
 
-Also have a standard hierarchy for the docs, so that people know where to look for things in any project.
+Établissez également une hiérarchie standard pour les documents, afin que les gens sachent où chercher les choses dans n'importe quel projet.
 
 
-Have regular meetings throughout the process
+Organisez des réunions régulières tout au long du processus
 --------------------------------------------
 
-Having a weekly standing meeting where you keep track of the progress along all the stages is important. This gives people a known place to go and discuss issues or ideas. It also provides a sense that the project is moving forward. At the beginning these meetings will be used to plan and track implementation. After implementation, it will be a place to drive adoption and gather feedback.
+Il est important d'avoir une réunion hebdomadaire permanente au cours de laquelle vous suivez l'évolution de toutes les étapes. Cela donne aux gens un endroit connu où aller pour discuter des problèmes ou des idées. Cela donne également le sentiment que le projet avance. Au début, ces réunions seront utilisées pour planifier et suivre la mise en œuvre. Après la mise en œuvre, elles serviront à favoriser l'adoption et à recueillir des commentaires.
 
-Make it long-term
+S'inscrire dans la durée
 ~~~~~~~~~~~~~~~~~
 
-Something like a good documentation system also needs pretty constant care and feeding, reorganizing, and other maintained work. If you view this project as getting the tools in place, without a long term commitment, it will fail just like your last system.
+Un bon système de documentation doit être constamment entretenu, réorganisé et maintenu. Si vous considérez ce projet comme la mise en place des outils, sans engagement à long terme, il échouera tout comme votre dernier système.
