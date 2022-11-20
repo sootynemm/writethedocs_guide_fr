@@ -1,79 +1,79 @@
 DocOps
 ======
 
-author: Jodie Putrino & the Write the Docs community
+auteur : Jodie Putrino & la communauté Write the Docs
 
-What is DocOps, anyway?
+Qu'est-ce que DocOps ?
 -----------------------
 
-Along with the advent of :doc:`/guide/docs-as-code`, the technical writing community 
-has seen the growth of a new specialization called "DocOps" (or "doc-ops").
+Avec l'avènement de :doc:`/guide/docs-as-code`, la communauté des rédacteurs techniques a vu se développer une nouvelle spécialisation appelée "DocOps" (ou "doc-ops"). 
+a vu naître une nouvelle spécialisation appelée "DocOps" (ou "doc-ops").
 
-But what does DocOps actually mean, and who actually "does" DocOps?
+Mais qu'est-ce que DocOps signifie réellement, et qui "fait" DocOps ?
 
-This subject came up for discussion during an Unconference session at the Write 
-the Docs (WTD) North America conference in 2021 in Portland. 
-This page represents some of the ideas presented during that session.
+Ce sujet a fait l'objet d'une discussion lors d'une session Unconference à la conférence Write 
+the Docs (WTD) North America en 2021 à Portland. 
+Cette page représente certaines des idées présentées lors de cette session.
 
-Generally speaking, "DocOps" is like `DevOps`_. Instead of applying broadly to 
-software development, though, DocOps specifically applies to the creation, 
-management, and release of documentation.  
+D'une manière générale, "DocOps" est comme "DevOps". Mais au lieu de s'appliquer largement au 
+développement de logiciels, DocOps s'applique spécifiquement à la création, 
+gestion et la diffusion de la documentation.  
 
-Going from the DevOps definition provided by Atlassian linked in the previous 
-paragraph, then, we could loosely define DocOps as:
+Si l'on s'en tient à la définition de DevOps fournie par Atlassian et mentionnée dans le 
+paragraphe précédent, nous pourrions donc définir DocOps comme suit :
 
-   "a set of practices that works to automate and integrate the process 
-   of developing documentation across engineering, product, support, and, of 
-   course, technical writing teams." 
+   "un ensemble de pratiques visant à automatiser et à intégrer le processus de développement de la documentation au sein de l'ingénierie, du produit, de l'entreprise et de l'organisation. 
+   de développement de la documentation au sein des équipes d'ingénierie, de produit, de support et, bien sûr, de rédaction technique. 
+   et, bien sûr, les équipes de rédaction technique". 
 
-Just like DevOps, DocOps also emphasizes collaboration and continuous 
-improvement. Below, we've adapted the traditional DevOps lifecycle diagram to
-represent DocOps:
+Tout comme DevOps, DocOps met l'accent sur la collaboration et l'amélioration continue. 
+l'amélioration continue. Ci-dessous, nous avons adapté le diagramme du cycle de vie traditionnel de DevOps pour
+pour représenter DocOps :
 
-.. image:: /_static/img/guide/docops-lifecycle.png
+... image: : /_static/img/guide/docops-lifecycle.png
 
-.. _DevOps: https://www.atlassian.com/devops
+.. _DevOps : https://www.atlassian.com/devops
 
-Who practices DocOps?
+Qui pratique DocOps ?
 ---------------------
 
-To answer this question, it might be best to examine the responsibilities 
-that a DocOps practitioner or team might have. 
+Pour répondre à cette question, il est préférable d'examiner les responsabilités 
+qu'un praticien ou une équipe DocOps pourrait avoir. 
 
-* Selecting and providing support for tools used to produce documentation -- markup 
-  language, static site generator (SSG), hosting provider, etc.
-* Defining processes and established ways of working, including where docs fit
-  into agile or other development methodologies.
-* Defining documentation priorities and deliverables
-* Providing training to authors to enable contribution to the docs
-* Managing content     
-* Building and maintaining a theme for an SSG
-* Modeling and implementing product versioning strategies as they pertain to 
-  documentation
-* Creating and maintaining build scripts 
-* Keeping the barrier to entry for making docs low to make contributing easy and 
-  (dare we say it?) fun
+* Sélectionner et fournir un support pour les outils utilisés pour produire la documentation -- langage de balisage, générateur de site statique (SSG), etc. 
+  langage de balisage, générateur de site statique (SSG), fournisseur d'hébergement, etc.
+* Définir les processus et les méthodes de travail établies, y compris la place de la documentation dans les méthodologies agiles ou autres.
+  dans les méthodologies de développement agiles ou autres.
+* Définir les priorités et les livrables de la documentation
+* Formation des auteurs pour leur permettre de contribuer à la documentation.
+* Gestion du contenu     
+* Construire et maintenir un thème pour une SSG.
+* Modélisation et mise en œuvre des stratégies de versionnement du produit en ce qui concerne la documentation. 
+  la documentation
+* Créer et maintenir des scripts de construction 
+* Maintenir la barrière d'entrée pour la création de la documentation à un niveau bas afin de rendre la contribution facile et (osons le dire ?) amusante. 
+  (osons le dire ?) amusante
 
-This is by no means an exhaustive list. If you have responsibilities that 
-overlap with or incorporate some of these, then you may be a DocOps practitioner.
+Il ne s'agit en aucun cas d'une liste exhaustive. Si vous avez des responsabilités qui 
+chevauchent ou intègrent certaines de ces responsabilités, vous êtes peut-être un praticien DocOps.
 
-It's also important to note that while DocOps tends to be associated with 
-docs-as-code, it's not a requirement. You might use DITA, a CMS, a wiki, etc.; 
-if you're involved in the areas listed above, regardless of tool set, there's 
-a good chance you might be DocOps!
+Il est également important de noter que, même si DocOps est souvent associé à la notion de 
+docs-as-code, ce n'est pas une obligation. Vous pouvez utiliser DITA, un CMS, un wiki, etc ; 
+Si vous êtes impliqué dans les domaines énumérés ci-dessus, quel que soit l'ensemble d'outils, il y a de fortes chances que vous soyez DocOps. 
+il y a de fortes chances que vous soyez DocOps !
 
-DocOps resources
+Ressources DocOps
 ----------------
 
-If you're interested in DocOps, join the conversation in the Write the Docs Slack 
-`#docops`_ channel!
+Si vous êtes intéressé par DocOps, rejoignez la conversation sur le Slack de Write the Docs 
+`#docops`_ channel !
 
-* `CA Technologies`_ was among the first to publicly use the term "DocOps" to 
-  describe their approach to technical content
-* `Chris Noonan`_ presented on the "Rocky Road to DocOps" at WTD Europe in 2020
-* `Doc Tool Hub`_ provides a curated list of DocOps-related articles and blog posts.
+* `CA Technologies`_ a été parmi les premiers à utiliser publiquement le terme "DocOps" pour 
+  décrire leur approche du contenu technique
+* Chris Noonan a fait une présentation sur la "Rocky Road to DocOps" à la JMT Europe en 2020.
+* `Doc Tool Hub`_ fournit une liste d'articles et de billets de blog liés à DocOps.
 
-.. _#docops: https://writethedocs.slack.com/archives/C62BVHJ7K
-.. _CA Technologies: https://www.k15t.com/blog/2014/12/webinar-how-ca-technologies-broke-the-rules-the-docops-approach-to-agile-technical-content
-.. _Chris Noonan: https://www.youtube.com/watch?v=2HjeYNs2z7o
-.. _Doc Tool Hub: https://doctoolhub.com/collection/docops/ 
+.. _#docops : https://writethedocs.slack.com/archives/C62BVHJ7K
+.. _CA Technologies : https://www.k15t.com/blog/2014/12/webinar-how-ca-technologies-broke-the-rules-the-docops-approach-to-agile-technical-content
+.. _Chris Noonan : https://www.youtube.com/watch?v=2HjeYNs2z7o
+.. _Doc Tool Hub : https://doctoolhub.com/collection/docops/ 
