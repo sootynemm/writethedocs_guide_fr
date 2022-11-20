@@ -1,354 +1,354 @@
-A beginner's guide to writing documentation
+Guide de rédaction de la documentation pour les débutants
 ===========================================
 
-.. note:: This is a write up of a `Presentation <https://speakerdeck.com/ericholscher/writing-docs-a-beginners-guide-to-writing-documentation>`_ .
-          Please provide feedback to `@ericholscher`_.
-          You can view the source on `GitHub`_.
+. note: : Ceci est un compte-rendu d'une `Présentation <https://speakerdeck.com/ericholscher/writing-docs-a-beginners-guide-to-writing-documentation>`_ .
+          Veuillez faire part de vos commentaires à `@ericholscher`_.
+          Vous pouvez voir la source sur `GitHub`_.
 
-.. _@ericholscher: http://twitter.com/ericholscher
-.. _GitHub: https://github.com/writethedocs/www/blob/master/docs/guide/writing/beginners-guide-to-docs.rst
+.. _@ericholscher : http://twitter.com/ericholscher
+.. _GitHub : https://github.com/writethedocs/www/blob/master/docs/guide/writing/beginners-guide-to-docs.rst
 
 ..
 
-	| Camera pans from stage left.
-	| It shows a text editor, open to a blank page.
-	| A person hunched in front, head to desk.
+	| La caméra fait un panoramique de la scène à gauche.
+	| Elle montre un éditeur de texte, ouvert sur une page blanche.
+	| Une personne courbée devant, la tête contre le bureau.
 
-The scene above is well known to everyone who writes for a living;
-the mixed emotions of a blank page.
-Full of excitement, fresh with a new beginning.
-Yet also full of despair, where do you even start?
+La scène ci-dessus est bien connue de tous ceux qui écrivent pour vivre ;
+les émotions mélangées d'une page blanche.
+Pleine d'excitation, la fraîcheur d'un nouveau départ.
+Mais aussi de désespoir : par où commencer ?
 
-I am here to stop this scene from playing out.
+Je suis ici pour empêcher cette scène de se produire.
 
-This is a guide to documenting your first project.
-The first time is always the hardest,
-and I hope this guide will get you started down the righteous path.
-At the end,
-you should have a project that is ready for public release.
+Voici un guide pour documenter votre premier projet.
+La première fois est toujours la plus difficile,
+et j'espère que ce guide vous aidera à vous engager sur le bon chemin.
+A la fin,
+vous devriez avoir un projet qui est prêt à être publié.
 
-Feel free to read this document straight through,
-or simply use it as a reference.
+N'hésitez pas à lire ce document en entier,
+ou simplement l'utiliser comme référence.
 
-.. _why:
+.. _pourquoi :
 
-Why write docs
+Pourquoi écrire des documents
 --------------
 
-You will be using your code in 6 months
+Vous utiliserez votre code dans 6 mois
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Code that you wrote 6 months ago is often indistinguishable from code that someone else has written.
-You will look upon a file with a fond sense of remembrance.
-Then a sneaking feeling of foreboding,
-knowing that someone less experienced, less wise, had written it.
+Le code que vous avez écrit il y a 6 mois est souvent impossible à distinguer du code que quelqu'un d'autre a écrit.
+Vous regarderez un fichier avec un sentiment de souvenir ému.
+Puis un sentiment sournois de pressentiment,
+sachant que quelqu'un de moins expérimenté, de moins sage, l'a écrit.
 
-As you go through this selfless act of untangling things that were obvious or clever months ago,
-you will start to empathize with your users.
-If only I had written down why I had done this.
-Life would be so much simpler.
-Documentation allows you to transfer the *why* behind code.
-Much in the same way code comments explain the *why*,
-and not the *how*,
-documentation serves the same purpose.
+En accomplissant cet acte désintéressé de démêler des choses qui étaient évidentes ou intelligentes il y a des mois,
+vous commencerez à avoir de l'empathie pour vos utilisateurs.
+Si seulement j'avais écrit pourquoi j'avais fait ça.
+La vie serait tellement plus simple.
+La documentation vous permet de transférer le "pourquoi" derrière le code.
+De la même manière que les commentaires de code expliquent le *pourquoi*,
+et non le *comment*,
+la documentation sert le même objectif.
 
-.. sidebar::  Sidebar on open source
+... sidebar: :  Sidebar sur l'open source
 
-	There is a magical feeling that happens when you release your code.
-	It comes in a variety of ways, but it always hits you the same.
-	*Someone is using my code?!*
-	A mix of terror and excitement.
+	Il y a un sentiment magique qui se produit lorsque vous publiez votre code.
+	Il se manifeste de différentes manières, mais il vous frappe toujours de la même façon.
+	*Quelqu'un utilise mon code?!*
+	Un mélange de terreur et d'excitation.
 
-		| I made something of value!
-		| What if it breaks?!
-		| I am a real open source developer!
-		| Oh god, someone else is using my code..
+		| J'ai fait quelque chose de valeur !
+		| Et si ça casse ?
+		| Je suis un vrai développeur open source !
+		| Oh mon Dieu, quelqu'un d'autre utilise mon code...
 
-	Writing good documentation will help alleviate some of these fears.
-	A lot of this fear comes from putting something into the world.
-	My favorite quote about this is something along these lines:
+	La rédaction d'une bonne documentation contribuera à atténuer certaines de ces craintes.
+	Une grande partie de cette peur vient du fait de mettre quelque chose au monde.
+	Ma citation préférée à ce sujet est quelque chose de ce genre :
 
-		| Fear is what happens when you're doing something important.
-		| If you are doing work that isn't scary,
-		| it isn't improving you or the world.
+		| La peur est ce qui arrive quand vous faites quelque chose d'important.
+		| Si vous faites un travail qui n'est pas effrayant,
+		| il n'améliore ni toi ni le monde.
 
-	Congrats on being afraid!
-	It means you're doing something important.
+	Félicitations pour avoir peur !
+	Cela signifie que tu fais quelque chose d'important.
 
-You want people to use your code
+Tu veux que les gens utilisent ton code
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You have written a piece of code,
-and released it into the world.
-You have done this because you think that others might find it useful.
-However,
-people need to understand why your code might be useful for them,
-before they decide to use it.
-Documentation tells people that this project is for them.
+Vous avez écrit un morceau de code,
+et vous l'avez diffusé dans le monde.
+Vous l'avez fait parce que vous pensez que d'autres personnes pourraient le trouver utile.
+Cependant,
+les gens ont besoin de comprendre pourquoi votre code pourrait leur être utile,
+avant de décider de l'utiliser.
+La documentation indique aux gens que ce projet est pour eux.
 
-	| If people don't know why your project exists,
-	| they won't use it.
-	| If people can't figure out how to install your code,
-	| they won't use it.
-	| If people can't figure out how to use your code,
-	| they won't use it.
+	| Si les gens ne savent pas pourquoi votre projet existe,
+	| ils ne l'utiliseront pas.
+	| Si les gens ne savent pas comment installer votre code,
+	| ils ne l'utiliseront pas.
+	| Si les gens ne savent pas comment utiliser votre code,
+	| ils ne l'utiliseront pas.
 
-There are a small number of people who will source dive and use any code out there.
-That is a vanishingly small number of people,
-compared to people who will use your code when properly documented.
-If you really love your project,
-document it,
-and let other people use it.
+Il y a un petit nombre de personnes qui sont prêtes à utiliser n'importe quel code existant.
+C'est un nombre infiniment petit de personnes,
+comparé aux personnes qui utiliseront votre code s'il est correctement documenté.
+Si vous aimez vraiment votre projet,
+documentez-le,
+et laissez d'autres personnes l'utiliser.
 
 
-You want people to help out
+Vous voulez que les gens vous aident
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open source is this magical thing right?
-You release code,
-and the code gnomes come and make it better for you.
+L'open source est une chose magique, non ?
+Vous publiez un code,
+et les gnomes du code viennent et l'améliorent pour vous.
 
-Not quite.
+Pas tout à fait.
 
-There are lots of ways that open source is amazing,
-but it doesn't exist outside the laws of physics.
-You have to put work in,
-to get work out.
+Il y a beaucoup de façons dont l'open source est incroyable,
+mais il n'existe pas en dehors des lois de la physique.
+Vous devez y mettre du travail,
+pour obtenir du travail.
 
-	| You only get contributions after you have put in a lot of work.
-	| You only get contributions after you have users.
-	| You only get contributions after you have documentation.
+	| Vous n'obtenez des contributions qu'après avoir fourni beaucoup de travail.
+	| On ne reçoit des contributions qu'après avoir eu des utilisateurs.
+	| Vous n'obtiendrez des contributions que si vous disposez d'une documentation.
 
-Documentation also provides a platform for your first contributions.
-A lot of people have never contributed before,
-and documentation changes are a lot less scary than code changes.
-If you don't have documentation,
-you will miss out on a whole class of contributors.
+La documentation fournit également une plate-forme pour vos premières contributions.
+Beaucoup de gens n'ont jamais contribué auparavant,
+et les changements de documentation sont beaucoup moins effrayants que les changements de code.
+Si vous n'avez pas de documentation,
+vous passerez à côté de toute une catégorie de contributeurs.
 
-You want your code to be better
+Vous voulez que votre code soit meilleur
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-It's really easy to have an idea in your head that sounds perfect,
-but the act of putting words to paper requires a distillation of thought that may not be so easy.
+Il est très facile d'avoir une idée dans la tête qui semble parfaite,
+mais l'acte de mettre des mots sur le papier exige une distillation de la pensée qui n'est peut-être pas si facile.
 
-Writing documentation improves the design of your code.
-Talking through your API and design decisions on paper allows you to think about them in a more formalized way.
-A nice side effect is that it allows people to contribute code that follows your original intentions as well.
+La rédaction de la documentation améliore la conception de votre code.
+Le fait de coucher sur papier vos décisions en matière d'API et de conception vous permet d'y réfléchir de manière plus formelle.
+Un effet secondaire intéressant est que cela permet aux gens de contribuer à un code qui respecte également vos intentions initiales.
 
-You want to be a better writer
+Vous voulez devenir un meilleur rédacteur
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Writing documentation is a different form of writing than most people have experience with.
-Technical writing is an art that doesn't come naturally.
-Writing documentation will start you down the road to being a better technical writer,
-which is a useful skill to have as a programmer.
+La rédaction de documentation est une forme d'écriture différente de celle que la plupart des gens connaissent.
+La rédaction technique est un art qui ne vient pas naturellement.
+La rédaction de documentation vous permettra de devenir un meilleur rédacteur technique,
+ce qui est une compétence utile pour un programmeur.
 
-Writing also becomes easier over time.
-If you don't write for many months,
-it is a lot harder to start writing again.
-Keeping your projects documented will keep you writing at a reasonable cadence.
+L'écriture devient également plus facile avec le temps.
+Si vous n'écrivez pas pendant plusieurs mois,
+il est beaucoup plus difficile de recommencer à écrire.
+Le fait de documenter vos projets vous permettra de continuer à écrire à une cadence raisonnable.
 
-Starting simple is the best way to achieve actual results.
-I will present a well-paved path to walk down,
-and after you have the basic idea,
-you can expand your scope.
-The tools should be powerful and easy to use.
-This removes obstacles to actually putting words on the page.
+Commencer simplement est le meilleur moyen d'obtenir des résultats concrets.
+Je vais vous présenter un chemin bien pavé à parcourir,
+et une fois que vous aurez l'idée de base,
+vous pourrez élargir votre champ d'action.
+Les outils doivent être puissants et faciles à utiliser.
+Cela permet d'éliminer les obstacles qui empêchent de mettre réellement des mots sur la page.
 
-.. _markup_languages:
+.. _markup_languages :
 
-.. sidebar:: Sidebar on markup languages.
+.. sidebar: : Encadré sur les langages de balisage.
 
-   The examples in this document are both valid `Markdown`_ and `reStructuredText`_.
-   reStructuredText is a bit harder to use,
-   but is more powerful.
-   I recommend that you check them both out,
-   and decide which you want to use going forward.
+   Les exemples de ce document sont à la fois valides `Markdown`_ et `reStructuredText`_.
+   reStructuredText est un peu plus difficile à utiliser,
+   mais il est plus puissant.
+   Je vous recommande d'essayer les deux,
+   et de décider lequel vous voulez utiliser à l'avenir.
 
-.. _reStructuredText: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
-.. _Markdown: http://daringfireball.net/projects/markdown/
+.. _reStructuredText : https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
+.. _Markdown : http://daringfireball.net/projects/markdown/
 
-Version controlled plain text
+Texte brut contrôlé par version
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-As programmers we live in a world of plain text.
-Our documentation tooling should be no exception.
-We want tools that turn plain text into pretty HTML.
-We also have some of the best tooling available for tracking changes to files.
-Why would we forgo using those tools when writing documentation?
-This workflow is powerful, and familiar to developers.
+En tant que programmeurs, nous vivons dans un monde de texte brut.
+Nos outils de documentation ne devraient pas faire exception.
+Nous voulons des outils qui transforment le texte brut en un joli HTML.
+Nous disposons également de certains des meilleurs outils disponibles pour le suivi des modifications apportées aux fichiers.
+Pourquoi renoncerions-nous à utiliser ces outils lors de la rédaction de la documentation ?
+Ce flux de travail est puissant et familier aux développeurs.
 
 
-Basic example
+Exemple de base
 ~~~~~~~~~~~~~
 
-::
+: :
 
-	Resources
+	Ressources
 	---------
 
-	* Online documentation: http://docs.writethedocs.org/
-	* Conference: http://conf.writethedocs.org/
+	* Documentation en ligne : http://docs.writethedocs.org/
+	* Conférence : http://conf.writethedocs.org/
 
-This will render into a header,
-with a list underneath it.
-The URLs will be hyperlinked automatically.
-It's easy to write,
-still makes sense as plain text,
-and renders nicely into HTML.
+Ceci rendra dans un en-tête
+avec une liste en dessous.
+Les URLs seront hyperliées automatiquement.
+C'est facile à écrire,
+ça a toujours du sens en tant que texte brut,
+et s'affiche joliment en HTML.
 
 README
 ~~~~~~
 
-Your first steps in documentation should go into your README.
-Code hosting services will render your README into HTML automatically if you provide the proper extension.
-It is also the first interaction that most users will have with your project.
-So having a solid README will serve your project well.
+Vos premiers pas dans la documentation doivent être faits dans votre README.
+Les services d'hébergement de code rendront votre README en HTML automatiquement si vous fournissez l'extension appropriée.
+C'est également la première interaction que la plupart des utilisateurs auront avec votre projet.
+Un bon fichier README sera donc très utile à votre projet.
 
-Some people even go as far as to `start your project with a README`_
+Certaines personnes vont même jusqu'à "commencer votre projet avec un README".
 
-.. _start your project with a README: http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
+.. _démarrez votre projet avec un README : http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
 
-.. _write:
+.. _écrire :
 
-What to write
+Que faut-il écrire ?
 -------------
 
-Now we're getting down to the brass tacks.
-Making sure that you give your users all the information that they need,
-but not too much.
+Maintenant, nous entrons dans le vif du sujet.
+Assurez-vous que vous donnez à vos utilisateurs toutes les informations dont ils ont besoin,
+mais pas trop.
 
-First, you need to ask yourself who you're writing for.
-At first,
-you generally just need to appeal to two audiences:
+Tout d'abord, vous devez vous demander pour qui vous écrivez.
+Au début,
+vous devez généralement vous adresser à deux publics :
 
-* Users
-* Developers
+* les utilisateurs
+* les développeurs.
 
-Users are people who simply want to use your code,
-and don't care how it works.
-Developers are people who want to contribute back to your code.
+Les utilisateurs sont des gens qui veulent simplement utiliser votre code,
+et ne se soucient pas de savoir comment il fonctionne.
+Les développeurs sont des personnes qui veulent contribuer à votre code.
 
-What problem your project solves
+Quel problème votre projet résout-il ?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A lot of people will come to your docs trying to figure out what exactly your project is. Someone will mention it, or they'll google a phrase randomly. You should explain what your project does and why it exists. Fabric_ does a great job of this.
+De nombreuses personnes consulteront votre documentation en essayant de comprendre ce qu'est exactement votre projet. Quelqu'un le mentionnera, ou ils chercheront une phrase sur Google au hasard. Vous devez expliquer ce que fait votre projet et pourquoi il existe. Fabric_ fait un excellent travail à cet égard.
 
-.. _Fabric: http://docs.fabfile.org/
+.. _Fabric : http://docs.fabfile.org/
 
-A small code example
+Un petit exemple de code
 ~~~~~~~~~~~~~~~~~~~~
 
-Show a telling example of what your project would normally be used for. Requests_ does a great example of this.
+Montrez un exemple parlant de ce à quoi votre projet servirait normalement. Requests_ en fait un excellent exemple.
 
-.. _Requests: https://requests.kennethreitz.org/en/master/
+.. _Requests : https://requests.kennethreitz.org/en/master/
 
-A link to your code & issue tracker
+Un lien vers votre code et votre gestionnaire de problèmes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-People like to browse the code sometimes. They might be interested in filing bugs against the code for issues they've found. Make it really easy for people who want to contribute back to the project in any way possible. I think the `Python Guide`_ does a good job with the link to the code portion.
+Les gens aiment parfois parcourir le code. Ils peuvent être intéressés par le dépôt de bogues dans le code pour des problèmes qu'ils ont trouvés. Facilitez la tâche des personnes qui souhaitent contribuer au projet de quelque manière que ce soit. Je pense que le `Guide Python`_ fait un bon travail avec le lien vers la partie code.
 
-.. _Python Guide: http://docs.python-guide.org/en/latest/index.html
+.. Guide Python : http://docs.python-guide.org/en/latest/index.html
 
-Frequently Asked Questions (FAQ)
+Foire aux questions (FAQ)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A lot of people have the same problems. If things happen all the time, you should probably fix your documentation or the code, so that the problems go away. However, there are always questions that get asked about your project, things that can't be changed, etc. Document those, and **keep it up to date**. FAQs are generally out of date, but when done well, they are a golden resource. Tastypie_ did a great job with this, with their "Cookbook" concept.
+Beaucoup de gens ont les mêmes problèmes. Si les choses se produisent tout le temps, vous devriez probablement corriger votre documentation ou le code, afin que les problèmes disparaissent. Cependant, il y a toujours des questions qui sont posées sur votre projet, des choses qui ne peuvent pas être changées, etc. Documentez-les, et **tenez-les à jour**. Les FAQ sont généralement obsolètes, mais lorsqu'elles sont bien faites, elles constituent une ressource en or. Tastypie_ a fait un excellent travail à ce sujet, avec son concept de "livre de recettes".
 
-.. _Tastypie: http://django-tastypie.readthedocs.org/en/latest/cookbook.html
+.. _Tastypie : http://django-tastypie.readthedocs.org/en/latest/cookbook.html
 
-How to get support
+Comment obtenir de l'aide
 ~~~~~~~~~~~~~~~~~~
 
-Mailing list? IRC Channel? Document how to get help and interact with the community around a project. Django_ does a great job with this.
+Liste de diffusion ? Canal IRC ? Documentez comment obtenir de l'aide et interagir avec la communauté autour d'un projet. Django_ fait un excellent travail à ce sujet.
 
-.. _Django: https://docs.djangoproject.com/en/1.8/faq/help
+.. _Django : https://docs.djangoproject.com/en/1.8/faq/help
 
 
 
-Information for people who want to contribute back
+Informations pour les personnes qui veulent contribuer en retour
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-People usually have standards for how they expect things to be done in their projects. You should document these so that if people write code, they can do things in the norm of the project. `Open Comparison`_ does a great job of this.
+Les gens ont généralement des normes sur la façon dont ils s'attendent à ce que les choses soient faites dans leurs projets. Vous devriez les documenter de sorte que si les gens écrivent du code, ils puissent faire les choses dans la norme du projet. `Open Comparison`_ fait un excellent travail à ce sujet.
 
-.. _Open Comparison: https://packaginator.readthedocs.io/en/latest/contributing.html
+.. _Open Comparison : https://packaginator.readthedocs.io/en/latest/contributing.html
 
 
-Installation instructions
+Instructions d'installation
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once people figure out whether they want to use your code or not, they need to know how to actually get it and make it run. Hopefully your install instructions should be a couple lines for the basic case. A page that gives more information and caveats should be linked from here if necessary. I think at `Read the Docs`_ we do a good job with this.
+Une fois que les gens ont décidé d'utiliser votre code ou non, ils doivent savoir comment l'obtenir et le faire fonctionner. Avec un peu de chance, vos instructions d'installation devraient tenir en quelques lignes pour le cas de base. Une page qui donne plus d'informations et des avertissements devrait être liée à partir d'ici si nécessaire. Je pense que chez "Read the Docs", nous faisons un bon travail à ce sujet.
 
-.. _Read the Docs: http://read-the-docs.readthedocs.org/en/latest/install.html
+.. _Lisez les docs : http://read-the-docs.readthedocs.org/en/latest/install.html
 
 
-Your project's license
+La licence de votre projet
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-BSD? MIT? GPL? This stuff might not matter to you, but the people who want to use your code will care about this a whole lot. Think about what you want to accomplish with your license, and please only pick one of the standard licenses that you see around the web.
+BSD ? MIT ? GPL ? Ce genre de choses n'a peut-être pas d'importance pour vous, mais les personnes qui veulent utiliser votre code s'y intéressent beaucoup. Pensez à ce que vous voulez accomplir avec votre licence, et s'il vous plaît ne choisissez qu'une des licences standards que vous voyez sur le web.
 
-.. _template:
+.. _template :
 
 
-Next steps
+Prochaines étapes
 ----------
 
-After you follow the above guide,
-we know your project will be successful!
-For further reading,
-check out this post on `how to maintain an open source project`_.
+Après avoir suivi le guide ci-dessus,
+nous savons que votre projet sera une réussite !
+Pour plus de lecture,
+consultez ce post sur `comment maintenir un projet open source`_.
 
-.. _how to maintain an open source project: https://medium.com/p/aaa2a5437d3a
+.. _comment maintenir un projet open source : https://medium.com/p/aaa2a5437d3a
 
-Template
+Modèle
 --------
 
-A simple template for you to start with,
-for your ``README``.
-Name the file ``README.md`` if you want to use markdown,
-or ``README.rst`` if you want to use reStructuredText.
-More information about these can be found in the :ref:`sidebar on markup <markup_languages>`.
+Un modèle simple pour vous permettre de commencer,
+pour votre ``README``.
+Nommez le fichier ``README.md`` si vous voulez utiliser markdown,
+ou ``README.rst`` si vous voulez utiliser reStructuredText.
+Vous trouverez plus d'informations à ce sujet dans la :ref:`barre latérale sur le balisage <markup_languages>`.
 
-::
+: :
 
-	$project
+	$projet
 	========
 
-	$project will solve your problem of where to start with documentation,
-	by providing a basic explanation of how to do it easily.
+	$project résoudra votre problème de savoir par où commencer avec la documentation,
+	en fournissant une explication basique de comment le faire facilement.
 
-	Look how easy it is to use:
+	Regardez comme il est facile à utiliser :
 
 	    import project
-	    # Get your stuff done
+	    # Faites votre travail
 	    project.do_stuff()
 
-	Features
+	Caractéristiques
 	--------
 
-	- Be awesome
-	- Make things faster
+	- Être génial
+	- Accélérer les choses
 
 	Installation
 	------------
 
-	Install $project by running:
+	Installez $projet en exécutant :
 
 	    install project
 
-	Contribute
+	Contribuer
 	----------
 
-	- Issue Tracker: github.com/$project/$project/issues
-	- Source Code: github.com/$project/$project
+	- Issue Tracker : github.com/$project/$project/issues
+	- Code source : github.com/$project/$projet
 
 	Support
 	-------
 
-	If you are having issues, please let us know.
-	We have a mailing list located at: project@google-groups.com
+	Si vous rencontrez des problèmes, veuillez nous en faire part.
+	Nous avons une liste de diffusion à l'adresse : project@google-groups.com
 
-	License
+	Licence
 	-------
 
-	The project is licensed under the BSD license.
+	Le projet est sous licence BSD.
