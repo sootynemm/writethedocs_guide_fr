@@ -1,139 +1,139 @@
-Learn Git by editing the Write the Docs website
+Apprendre Git en éditant le site Write the Docs
 ===============================================
 
-Identify the page you want to edit
+Identifiez la page que vous souhaitez modifier
 ----------------------------------
 
-1. Find an `existing issue`_, or a page you want to improve.
-2. In the repo UI, find the file that corresponds to the page. For
-   example:
-   https://www.writethedocs.org/documentarians/ is produced by
-   ``/docs/documentarians.rst``. (You’ll need this filename later for
-   making changes on your local copy.)
-3. This is a ReStructuredText (.rst) file, so you may want to review the
-   `RST documentation`_. Other common markup formats are Markdown (.md)
-   and AsciiDoc (.adoc).
+1. Trouvez un "problème existant", ou une page que vous voulez améliorer.
+2. Dans l'interface utilisateur du repo, trouvez le fichier qui correspond à la page. Pour
+   exemple :
+   https://www.writethedocs.org/documentarians/ est produit par
+   ``/docs/documentarians.rst``. (Vous aurez besoin de ce nom de fichier plus tard pour
+   faire des modifications sur votre copie locale).
+3. Il s'agit d'un fichier ReStructuredText (.rst).
+   `Documentation RST`_. D'autres formats de balisage courants sont Markdown (.md)
+   et AsciiDoc (.adoc).
 
-Prerequisites
+Conditions préalables
 -------------
 
-1. `Create a GitHub account`_.
-2. `Download and install Git`_.
-3. Open a terminal window and follow the instructions to `associate your
-   GitHub username with your local Git installation`_.
+1. `Créer un compte GitHub`_.
+2. `Téléchargez et installez Git`_.
+3. Ouvrez une fenêtre de terminal et suivez les instructions pour `associer votre
+   votre nom d'utilisateur GitHub à votre installation locale de Git`_.
 
-   1. In macOS: Open the **Terminal** app.
-   2. In Windows: From the Start Menu, open **Git Bash**.
+   1. Sous macOS : Ouvrez l'application **Terminal**.
+   2. Sous Windows : Dans le menu Démarrer, ouvrez **Git Bash**.
 
-Start using Git and modify the source file of a page
+Commencez à utiliser Git et modifiez le fichier source d'une page
 ----------------------------------------------------
 
-1.  Visit the `Write the Docs www project`_.
+1.  Visitez le projet `Write the Docs www`_.
 
-2.  Click the **Fork** button in the upper-right corner to create a
-    copy of the project in your GitHub account. The new page for the
-    forked project opens.
+2.  Cliquez sur le bouton **Fork** dans le coin supérieur droit pour créer une
+    copie du projet dans votre compte GitHub. La nouvelle page pour le
+    projet bifurqué s'ouvre.
 
-3.  Click the **Clone or download** button and copy the https URL from
-    the project page.
+3.  Cliquez sur le bouton **Clone ou téléchargement** et copiez l'URL https de la page du projet.
+    la page du projet.
 
-4.  Open a terminal window so that you can run ``git`` commands.
+4.  Ouvrez une fenêtre de terminal pour que vous puissiez exécuter les commandes ``git``.
 
-    1. In macOS: Open the **Terminal** app.
-    2. In Windows: From the Start Menu, open **Git Bash**.
+    1. Sous macOS : Ouvrez l'application **Terminal**.
+    2. Sous Windows : Dans le menu Démarrer, ouvrez **Git Bash**.
 
-5.  Navigate to or create the directory to where you want to clone the repository. 
+5.  Naviguez vers ou créez le répertoire dans lequel vous voulez cloner le référentiel. 
 
-6.  In your terminal window, type ``git clone``, followed by a space,
-    and then paste the project URL:
+6.  Dans votre fenêtre de terminal, tapez ``git clone``, suivi d'un espace,
+    et ensuite collez l'URL du projet :
 
-    ::
+    : :
 
        git clone https://github.com/myname/www.git
 
-6.  Press Enter. The command copies files from GitHub to a folder named
-    ``www`` on your local machine.
+6.  Appuyez sur la touche Entrée. La commande copie les fichiers depuis GitHub vers un dossier nommé
+    ``www`` sur votre machine locale.
 
-7.  In the terminal window, go to the ``www`` directory.
+7.  Dans la fenêtre du terminal, allez dans le répertoire ``www``.
 
-    ::
+    : :
 
        cd www
 
-8.  Create and switch to a branch. Using the commands below,
-    replace ``branch-name`` with a name that briefly describes the
-    changes you’ll make, preferably use dashes between words. For
-    example, ``important-typo-fix``.
+8.  Créez et passez à une branche. En utilisant les commandes ci-dessous,
+    remplacez ``nom-de-branche`` par un nom qui décrit brièvement les
+    les changements que vous allez faire, en utilisant de préférence des tirets entre les mots. Pour
+    Par exemple, ``important-typo-fix``.
 
-    a. Create a branch with:
+    a. Créez une branche avec :
 
-       ::
+       : :
 
           git branch branch-name
 
-       Switch to the branch:
+       Passez à la branche :
 
-       ::
+       : :
 
-          git checkout branch-name
+          git checkout nom-branche
 
-    b. Alternatively, use one command to perform both steps at once:
+    b. Vous pouvez aussi utiliser une seule commande pour effectuer les deux étapes en même temps :
 
-       ::
+       : :
 
-          git checkout -b branch-name
+          git checkout -b nom-branche
 
-9. Open the ``www`` folder on your computer.
+9. Ouvrez le dossier ``www`` sur votre ordinateur.
 
-10. | Open the file you wish to edit using a text editor like `Sublime
-      Text`_ or `Visual Studio Code`_, then save the file.
+10. | Ouvrez le fichier que vous souhaitez modifier en utilisant un éditeur de texte comme `Sublime
+      Text`_ ou `Visual Studio Code`_, puis enregistrez le fichier.
 
-11. In your terminal window, type:
+11. Dans votre fenêtre de terminal, tapez :
 
-    ::
+    : :
 
        git status
 
-    This will show you all the files that you have updated.
+    Cela vous montrera tous les fichiers que vous avez mis à jour.
 
-12. If your changes look accurate, enter the following in your terminal window:
+12. Si vos changements semblent exacts, tapez ce qui suit dans votre fenêtre de terminal :
 
-   ::
+   : :
 
       git add -A
 
-   This will add any new and changed files to your local project.
+   Ceci ajoutera tous les fichiers nouveaux et modifiés à votre projet local.
 
-13. To save your changes, enter the following in your terminal window:
+13. Pour sauvegarder vos changements, entrez ce qui suit dans votre fenêtre de terminal :
 
-   ::
+   : :
 
-      git commit -m "Your message"
+      git commit -m "Votre message"
 
-   This will save all of your edited files. Replace ``Your message``
-   with a description of the update you made. *Protip*: Learn how
-   to `write a good commit message`_.
+   Ceci sauvegardera tous vos fichiers modifiés. Remplacez ``Votre message`` par une description de la mise à jour que vous avez faite.
+   par une description de la mise à jour que vous avez effectuée. *Protip* : Apprenez comment
+   à écrire un bon message de validation.
 
-   You can repeat the same process to add multiple commits in your
-   branch.
+   Vous pouvez répéter le même processus pour ajouter plusieurs commits dans votre
+   branche.
 
-14. Send your commit(s) to your GitHub project using ``git push``. Enter the following in your terminal window:
+14. Envoyez votre/vos commit(s) à votre projet GitHub en utilisant ``git push``. Entrez ce qui suit dans votre fenêtre de terminal :
 
-   ::
+   : :
 
       git push -u origin branch-name
 
-15. Create a `GitHub pull request`_ in the `Write the Docs www project`_.
+15. Créez une `GitHub pull request`_ dans le projet `Write the Docs www`_.
 
 
-.. _existing issue: https://github.com/writethedocs/www/issues
-.. _RST documentation: https://docutils.readthedocs.io/en/sphinx-docs/user/rst/quickstart.html
-.. _Create a GitHub account: https://github.com/join
-.. _Download and install Git: https://git-scm.com/downloads
-.. _associate your GitHub username with your local Git installation: https://help.github.com/en/articles/setting-your-username-in-git
-.. _Write the Docs www project: https://github.com/writethedocs/www
-.. _Sublime Text: https://www.sublimetext.com
-.. _Visual Studio Code: https://code.visualstudio.com/
-.. _write a good commit message: https://chris.beams.io/posts/git-commit/
-.. _GitHub pull request: https://help.github.com/en/articles/creating-a-pull-request
-.. _Write the Docs www project: https://github.com/writethedocs/www
+.. _problème existant : https://github.com/writethedocs/www/issues
+.. _Documentation RST : https://docutils.readthedocs.io/en/sphinx-docs/user/rst/quickstart.html
+.. _Créer un compte GitHub : https://github.com/join
+.. _Télécharger et installer Git : https://git-scm.com/downloads
+.. _associer votre nom d'utilisateur GitHub à votre installation locale de Git : https://help.github.com/en/articles/setting-your-username-in-git
+.. . _Écrire le projet Docs www : https://github.com/writethedocs/www
+.. _Sublimez le texte : https://www.sublimetext.com
+.. _Code Visual Studio : https://code.visualstudio.com/
+.. _Écrire un bon message de validation : https://chris.beams.io/posts/git-commit/
+.. _demande de pull sur GitHub : https://help.github.com/en/articles/creating-a-pull-request
+.. ... _Écrire le projet Docs www : https://github.com/writethedocs/www
