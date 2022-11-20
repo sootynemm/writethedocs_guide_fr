@@ -1,73 +1,73 @@
 =================================================
-Welcome to the Write the Docs documentation guide
+Bienvenue au guide de documentation Write the Docs
 =================================================
 
-Contributing to Write the Docs Guide
+Contribuer au guide de documentation Write the Docs
 ------------------------------------
 
-If you want to help create an awesome documentation guide, you've come to the right place. Welcome! Please read on to understand what we're trying to do here and how you can help make it a better project.
+Si vous souhaitez contribuer à la création d'un guide de documentation génial, vous êtes au bon endroit. Bienvenue ! Veuillez lire ce qui suit pour comprendre ce que nous essayons de faire ici et comment vous pouvez contribuer à l'amélioration du projet.
 
-Ways you can contribute
+Façons dont vous pouvez contribuer
 -----------------------
 
-The guide is meant to address all aspects of software documentation. Depending on what you're comfortable with, here are the basic ways to contribute:
+Ce guide a pour but d'aborder tous les aspects de la documentation des logiciels. En fonction de ce avec quoi vous êtes à l'aise, voici les moyens de base pour contribuer :
 
-* Fork, branch, and submit a pull request
-* Submit an issue. You can use issues to suggest new content, or to file bugs against existing content.
+* bifurcation, branchement et soumission d'une demande de retrait (pull request)
+* Soumettre un problème. Vous pouvez utiliser les problèmes pour suggérer du nouveau contenu ou pour signaler des bogues dans le contenu existant.
 
-Where to start
+Où commencer
 --------------
 
-The guide has its origins in the efforts of developers to understand and explain documentation to each other. Since then, Write the Docs has expanded its focus and its community. We've recently reorganized the guide to provide a clearer top-level structure, but there's much work to be done. Feel free to suggest further changes to the organization. Here's where we need your contributions:
+Le guide trouve son origine dans les efforts des développeurs pour comprendre et expliquer la documentation les uns aux autres. Depuis lors, Write the Docs a élargi son champ d'action et sa communauté. Nous avons récemment réorganisé le guide afin de fournir une structure de haut niveau plus claire, mais il reste encore beaucoup de travail à faire. N'hésitez pas à suggérer d'autres modifications de l'organisation. Voici où nous avons besoin de vos contributions :
 
-* More :ref:`api-documentation` content!
-* Helping non-writers understand what makes good documentation
-* Helping writers new to developer tools or docs-as-code workflows to understand these toolchains and workflows
-* High-level discussions of common tools and toolchains. Please avoid advocacy here! But thoughtful presentation of specific use cases, how you solved them, what worked well, and what didn't work so well, are most welcome. If you want to write this kind of topic, consider starting with an issue in GitHub, or contact one of the new guide editors.
+* Plus de contenu :ref:`api-documentation` !
+* Aider les non-rédacteurs à comprendre ce qui fait une bonne documentation.
+* Aider les rédacteurs novices en matière d'outils de développement ou de flux de travail docs-as-code à comprendre ces chaînes d'outils et flux de travail.
+* Discussions de haut niveau sur les outils et chaînes d'outils courants. Veuillez éviter de faire du plaidoyer ici ! Mais une présentation réfléchie de cas d'utilisation spécifiques, de la façon dont vous les avez résolus, de ce qui a bien fonctionné et de ce qui a moins bien fonctionné, est la bienvenue. Si vous souhaitez rédiger ce type de sujet, envisagez de commencer par un problème dans GitHub, ou contactez l'un des éditeurs du nouveau guide.
 
-If you didn't find a topic you were looking for, file an `issue in GitHub <https://github.com/writethedocs/www/issues>`_.
+Si vous n'avez pas trouvé le sujet que vous recherchiez, déposez une `issue dans GitHub <https://github.com/writethedocs/www/issues>`_.
 
-What to leave out
+Ce qu'il faut laisser de côté
 -----------------
 
-The guide is not a place to plug your favorite toolchain, even if it's open source. If you want to include a page that describes a documentation problem you solved using a particular toolchain, great, but make sure that it's of interest to a general audience.
+Le guide n'est pas un endroit pour mettre en avant votre toolchain préférée, même si elle est open source. Si vous voulez inclure une page qui décrit un problème de documentation que vous avez résolu en utilisant une chaîne d'outils particulière, tant mieux, mais assurez-vous que cela intéresse un public général.
 
-If you want to add a new set of topics, consider where they would fit best into the rest of the guide. If it's not obvious where the new topics should go, ask in Slack, or file an issue.
+Si vous souhaitez ajouter un nouvel ensemble de rubriques, réfléchissez à l'endroit où elles s'intégreront le mieux dans le reste du guide. Si la place des nouveaux sujets n'est pas évidente, posez la question dans Slack ou déposez un problème.
 
-The main focus is general principles and best practices, and we'd like to keep it that way. This means no bikeshedding -- arguing over minor points at the expense of major principles of clarity and communication. And do avoid preferential editing -- offering only your personal preferences for dealing with a particular writing situation. If you recommend a particular word choice, for example, explain why it matters to the larger world of the audience you want to address.
+L'accent est mis sur les principes généraux et les meilleures pratiques, et nous souhaitons qu'il en soit ainsi. Cela signifie pas de "bikeshedding" - se disputer sur des points mineurs au détriment des principes majeurs de clarté et de communication. Évitez également les rédactions préférentielles, c'est-à-dire celles qui ne proposent que vos préférences personnelles pour faire face à une situation d'écriture particulière. Si vous recommandez un choix de mots particulier, par exemple, expliquez pourquoi il est important pour le monde plus large du public auquel vous voulez vous adresser.
 
-What we expect from you, and what you can expect from us
+Ce que nous attendons de vous, et ce que vous pouvez attendre de nous
 --------------------------------------------------------
 
-We encourage contributions from experienced folks and from newcomers, whether you're new to documentation, to software, to GitHub, or to Write the Docs. We expect you to respect the effort that's gone into whatever the current state of the guide might be, and we'll treat your contributions with respect in turn.
+Nous encourageons les contributions des personnes expérimentées et des nouveaux venus, que vous soyez novice en matière de documentation, de logiciels, de GitHub ou de Write the Docs. Nous attendons de vous que vous respectiez l'effort qui a été fait, quel que soit l'état actuel du guide, et nous traiterons vos contributions avec respect en retour.
 
-Keep your tone friendly and encouraging. It's a good way to write docs in general, so practice with docs about docs!
+Adoptez un ton amical et encourageant. C'est une bonne façon d'écrire des documents en général, alors entraînez-vous avec des documents sur des documents !
 
-Link liberally to resources that you find useful, but make sure to provide appropriate attribution. And make sure to add something about how or why you find them useful.
+Créez librement des liens vers les ressources que vous trouvez utiles, mais veillez à fournir une attribution appropriée. Et n'oubliez pas d'ajouter quelque chose sur la façon dont vous les trouvez utiles.
 
-For anyone new to GitHub and Git
+Pour les nouveaux venus sur GitHub et Git
 --------------------------------
 
-If you've never worked with Git and GitHub before, try these resources:
+Si vous n'avez jamais travaillé avec Git et GitHub auparavant, essayez ces ressources :
 
-`How to Contribute to an Open Source Project on GitHub <https://app.egghead.io/playlists/how-to-contribute-to-an-open-source-project-on-github>`_ is a great resource to help you get started.
+`Comment contribuer à un projet open source sur GitHub <https://app.egghead.io/playlists/how-to-contribute-to-an-open-source-project-on-github>`_ est une excellente ressource pour vous aider à démarrer.
 
-For small changes, you can submit issues, which you can do in the GitHub interface, but for anything larger you'll probably want to learn how to fork and branch, how to work locally (although you can do most things in the GitHub interface in your branch), and how to keep your fork in sync with the main repository.
+Pour les petits changements, vous pouvez soumettre des problèmes, ce que vous pouvez faire dans l'interface GitHub, mais pour tout ce qui est plus important, vous voudrez probablement apprendre comment bifurquer et faire des branches, comment travailler localement (bien que vous puissiez faire la plupart des choses dans l'interface GitHub dans votre branche), et comment garder votre bifurcation en synchronisation avec le dépôt principal.
 
-If you really don't want to deal with GitHub at all, we'll take attachments or inline text emailed to guide@writethedocs.org. But we'd like to encourage you to learn some of the basic tools that we use.
+Si vous ne voulez pas du tout vous occuper de GitHub, nous accepterons les pièces jointes ou les textes en ligne envoyés par courriel à guide@writethedocs.org. Mais nous aimerions vous encourager à apprendre certains des outils de base que nous utilisons.
 
-Markup
+Balisage
 ------
 
-Some of the current files in the guide are written in Markdown, and some are written in reStructured Text (rST). Either one is acceptable, although we'd prefer rST.
+Certains des fichiers actuels du guide sont écrits en Markdown, d'autres en texte reStructuré (rST). L'un ou l'autre est acceptable, mais nous préférons rST.
 
-Community
+Communauté
 ----------------
 
-For help, questions, or discussion, the Write the Docs community is available here:
+Pour toute aide, question ou discussion, la communauté Write the Docs est disponible ici :
 
 - `Slack <https://www.writethedocs.org/slack/>`_
 
-- `Conferences <https://www.writethedocs.org/conf/>`_
+- `Conférences <https://www.writethedocs.org/conf/>`_
 
-You can also check out our `local meetups <https://www.writethedocs.org/meetups>`_.
+Vous pouvez également consulter nos `réunions locales <https://www.writethedocs.org/meetups>`_.
