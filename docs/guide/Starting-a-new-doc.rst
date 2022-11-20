@@ -1,17 +1,17 @@
-Starting on a New Piece of Documentation
+Démarrage d'une nouvelle pièce de documentation
 ========================================
 
-So you’ve been tasked with writing a brand-new piece of documentation. Where should you begin?
+Vous avez été chargé de rédiger un tout nouveau document. Par où commencer ?
 
-A solid first step would be to talk to the experts on the product that you will be documenting (such as the developers, product managers, or project managers) to learn about the product and its expected target audience. Consider questions such as:
+Une bonne première étape consisterait à parler aux experts du produit que vous allez documenter (comme les développeurs, les chefs de produit ou les chefs de projet) pour en savoir plus sur le produit et le public cible attendu. Considérez des questions telles que :
 
-* What does the product do? What does it enable users to achieve?
-* Is there a particular type of user or business role that this product caters to? If so, what does this user base care about?
+* Que fait le produit ? Que permet-il aux utilisateurs d'atteindre ?
+* Le produit s'adresse-t-il à un type d'utilisateur ou à un rôle professionnel particulier ? Si c'est le cas, de quoi cette base d'utilisateurs se préoccupe-t-elle ?
 
-Use this knowledge to guide your decisions regarding the type of information that you should focus on in the documentation. These conversations will provide some pointers about the workflows that must be covered, and the product features or technical concepts that you will need to explain. You might also start getting ideas about how to organize and present the information.
+Utilisez ces connaissances pour guider vos décisions concernant le type d'informations sur lesquelles vous devez vous concentrer dans la documentation. Ces conversations vous donneront des indications sur les flux de travail à couvrir, ainsi que sur les caractéristiques du produit ou les concepts techniques à expliquer. Vous pourrez également commencer à avoir des idées sur la manière d'organiser et de présenter les informations.
 
-For example, if the product is something that has to be installed in order to be used, and you were writing for a system administrator audience, you would probably need to consider a wider variety of installation scenarios or more complex scenarios versus if you were writing for a less technical audience.
+Par exemple, si le produit doit être installé pour pouvoir être utilisé et que vous écrivez pour un public d'administrateurs système, vous devrez probablement envisager une plus grande variété de scénarios d'installation ou des scénarios plus complexes que si vous écriviez pour un public moins technique.
 
-As another example, if the product is a GUI application that offers specific ways for users to accomplish each task, you would probably want to write a user guide that walks users through those workflows step-by-step. However, if the product is something like a software development kit with a number of APIs that can be implemented in a multitude of ways, you might want to write a reference guide that describes what each API does and lists them alphabetically so that users can easily locate the information they need.
+Autre exemple, si le produit est une application GUI qui offre aux utilisateurs des moyens spécifiques pour accomplir chaque tâche, vous voudrez probablement rédiger un guide de l'utilisateur qui guide les utilisateurs à travers ces flux de travail, étape par étape. En revanche, si le produit s'apparente à un kit de développement logiciel comportant un certain nombre d'API pouvant être mises en œuvre de multiples façons, il est préférable de rédiger un guide de référence décrivant les fonctions de chaque API et les répertoriant par ordre alphabétique afin que les utilisateurs puissent facilement trouver les informations dont ils ont besoin.
 
-Understanding the product and the expected user base will guide your decisions on *what* to write about and *how* to write about it.
+La compréhension du produit et de la base d'utilisateurs attendue guidera vos décisions sur *ce qui* doit être écrit et *comment* l'écrire.
