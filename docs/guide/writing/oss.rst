@@ -1,6 +1,6 @@
-:orphan:
+orphelin :
 
-This document has moved
+Ce document a été déplacé
 =======================
 
-This document has been updated and moved to :doc:`/guide/writing/beginners-guide-to-docs`.
+Ce document a été mis à jour et déplacé vers :doc:`/guide/writing/beginners-guide-to-docs`.
