@@ -1,78 +1,78 @@
-Producing documentation inside a Support team
+Produire de la documentation au sein d'une équipe de support
 =============================================
 
-Advantages of working as a tech writer and support agent
+Avantages de travailler en tant que rédacteur technique et agent d'assistance
 --------------------------------------------------------
 
-Working in support and documentation simultaneously comes with some advantages. As a documentarian, you receive direct user feedback through support, which helps you anticipate everyday use-cases. If you notice a mistake or that something is missing from the current documentation, you can ensure it’s changed yourself, without having to pass the task to another department. As a supporter, if you have also documented the product yourself, you have a deeper knowledge of where to point people, and since you have already used the product, it becomes easier to explain it to users.
+Travailler simultanément dans le domaine du support et de la documentation présente certains avantages. En tant que documentaliste, vous recevez un retour direct des utilisateurs par le biais du support, ce qui vous aide à anticiper les cas d'utilisation quotidiens. Si vous remarquez une erreur ou un élément manquant dans la documentation actuelle, vous pouvez veiller à ce qu'il soit modifié vous-même, sans avoir à confier cette tâche à un autre service. En tant que supporter, si vous avez également documenté le produit vous-même, vous savez mieux où diriger les gens, et comme vous avez déjà utilisé le produit, il devient plus facile de l'expliquer aux utilisateurs.
 
-Here are some tips for different cases:
+Voici quelques conseils pour différents cas :
 
-* you are a **support agent** who wants to start writing technical documentation
-* you are a **tech writer** who wants to start in support
-* you are a **tech writer** who wants to work in your own defined role within support
+* vous êtes un **agent de support** qui veut se lancer dans la rédaction de documentation technique.
+* Vous êtes un **rédacteur technique** qui veut se lancer dans le support.
+* vous êtes un **rédacteur technique** qui veut travailler dans un rôle bien défini au sein du support.
 
 
-Tips for support agents wanting to start writing technical documentation
+Conseils aux agents d'assistance qui souhaitent se lancer dans la rédaction de documentation technique
 ------------------------------------------------------------------------
 
-As a supporter, starting to write documentation can be challenging, although the two are related. In support, a user asks a question about a specific topic, which you then explain. In documentation, however, you have to come up with topics yourself and anticipate questions before they are asked. In addition to that, you also need to figure out who your expected audience is and make an assumption about their prior knowledge, whereas in support you get an idea of the user’s level of knowledge from their question. When writing documentation, you may have to cater to multiple audiences in the same article, or even split it up into multiple articles for beginners and more advanced users.
+En tant qu'agent de support, il peut être difficile de commencer à rédiger de la documentation, bien que les deux soient liés. Dans le cadre du support, un utilisateur pose une question sur un sujet spécifique, que vous expliquez ensuite. En revanche, dans la documentation, vous devez trouver vous-même les sujets et anticiper les questions avant qu'elles ne soient posées. En outre, vous devez également déterminer qui est votre public cible et supposer ses connaissances préalables, alors que dans le cadre du support, vous avez une idée du niveau de connaissance de l'utilisateur à partir de sa question. Lors de la rédaction de la documentation, vous devrez peut-être vous adresser à plusieurs publics dans le même article, voire le diviser en plusieurs articles pour les débutants et les utilisateurs plus avancés.
 
-Feedback: in documentation, your work is often reviewed by a colleague, and you review their work as well, whereas in support, you usually interact with the user more directly. On the one hand, this can feel like being supervised by your colleagues or supervising them, but on the other hand, it provides a kind of safety net, preventing you from putting out wrong information by yourself.
+Le retour d'information : dans la documentation, votre travail est souvent relu par un collègue, et vous relisez également son travail, alors que dans l'assistance, vous interagissez généralement plus directement avec l'utilisateur. D'un côté, cela peut donner l'impression d'être supervisé par vos collègues ou de les superviser, mais d'un autre côté, cela fournit une sorte de filet de sécurité, vous empêchant de diffuser des informations erronées par vous-même.
 
 
-Tips for tech writers wanting to start in support
+Conseils pour les rédacteurs techniques souhaitant se lancer dans l'assistance
 -------------------------------------------------
 
-Are you a tech writer looking to start out in a support role? Great choice! The two disciplines complement one another excellently, with both requiring good customer-facing communication skills and specialist product knowledge.
+Vous êtes rédacteur technique et vous souhaitez commencer dans une fonction d'assistance ? Excellent choix ! Les deux disciplines se complètent parfaitement, car elles exigent toutes deux de bonnes aptitudes à la communication avec le client et une connaissance spécialisée des produits.
 
-However, when you are starting out, you’ll find that there are several challenges to tackle on the road to becoming a support superstar. Let’s explore the most important ones.
+Cependant, lorsque vous débutez, vous vous apercevez que plusieurs défis sont à relever pour devenir une superstar du support. Examinons les plus importants d'entre eux.
 
-Knowledge of features that you haven't documented: perhaps the best way of learning a product’s features is by documenting them. But what if your customers start asking about features that somebody else documented?
+Connaissance de fonctionnalités que vous n'avez pas documentées : la meilleure façon d'apprendre les fonctionnalités d'un produit est peut-être de les documenter. Mais que faire si vos clients commencent à poser des questions sur des fonctionnalités que quelqu'un d'autre a documentées ?
 
-This may happen more than you’d think – especially if you haven’t been working at an organization for long, or if you’ve only recently started to write about a certain tool.
+Cela peut arriver plus souvent qu'on ne le pense, surtout si vous ne travaillez pas depuis longtemps dans une organisation ou si vous n'avez commencé que récemment à écrire sur un certain outil.
 
-My advice: don’t be discouraged or alarmed if you get questions you can’t answer. To learn more about the software, reach out your colleagues, study old support tickets, and, of course, don’t forget to read the docs! 
+Mon conseil : ne vous découragez pas et ne vous inquiétez pas si vous recevez des questions auxquelles vous ne pouvez pas répondre. Pour en savoir plus sur le logiciel, contactez vos collègues, étudiez les anciens tickets d'assistance et, bien sûr, n'oubliez pas de lire la documentation ! 
 
-No review process: as a doc writer, the chances are that your work gets edited and proofread by a colleague before publishing. However, when answering most support requests, your input won’t be checked by a colleague.
+Pas de processus de révision : en tant que rédacteur de documents, il y a de fortes chances que votre travail soit révisé et corrigé par un collègue avant d'être publié. Cependant, lorsque vous répondez à la plupart des demandes d'assistance, votre contribution ne sera pas vérifiée par un collègue.
 
-So, how can you deal with this safety net being removed? Firstly, recognize that it’s fine not to know something – never give an answer you’re not 100% sure about just for the sake of saving face. If you don’t know, it’s always a good idea to ask another agent for their input, or escalate the ticket to the next support level for support.
+Alors, comment faire face à la suppression de ce filet de sécurité ? Tout d'abord, reconnaissez que c'est normal de ne pas savoir quelque chose - ne donnez jamais une réponse dont vous n'êtes pas sûr à 100 %, juste pour sauver la face. Si vous ne savez pas, il est toujours bon de demander l'avis d'un autre agent ou de transmettre le ticket au niveau d'assistance suivant.
 
-Tips for tech writers who want to work in their own role within support
+Conseils pour les rédacteurs techniques qui veulent travailler dans leur propre rôle au sein du support
 -----------------------------------------------------------------------
 
-If you work for a large-scale SaaS business, being a tech writer involves keeping up with gaps in the documentation, maintaining versions, coordinating release notes, and so on.
+Si vous travaillez pour une entreprise SaaS à grande échelle, le rôle de rédacteur technique implique de combler les lacunes de la documentation, de maintenir les versions, de coordonner les notes de mise à jour, etc.
 
-Often this means that you have a huge backlog of tasks to juggle, and you cannot take on another role, like supporting client. However, this does not mean that you should lose your contact with this essential part of the business. Working as a technical writer within a support team is a great way to keep up with customer issues while maintain the documentation. All you need is a solid plan to make it happen.
+Souvent, cela signifie que vous avez un énorme arriéré de tâches à jongler et que vous ne pouvez pas assumer un autre rôle, comme l'assistance au client. Toutefois, cela ne signifie pas que vous devez perdre le contact avec cette partie essentielle de l'entreprise. Travailler comme rédacteur technique au sein d'une équipe d'assistance est un excellent moyen de suivre les problèmes des clients tout en conservant la documentation. Tout ce dont vous avez besoin, c'est d'un plan solide pour y parvenir.
 
-Consider these tips: 
+Considérez les conseils suivants : 
 
-* Get the team on board
-* Simplify communication
-* Collaborate
+* Obtenez l'adhésion de l'équipe
+* Simplifiez la communication
+* Collaborez
 
-Get the team on board
+Obtenir l'adhésion de l'équipe
 ~~~~~~~~~~~~~~~~~~~~~
 
-It is important to remember that when you work in a separate role within a team, it does not separate you from the team. Even though you write, and they provide support, you still make up one team and are essential to each other. The better the documentation is, the fewer redundancies there are in tickets and calls coming in. This means that support will get less tickets, yes, but those tickets will contain challenging issues that really require their time and skills. This is a rewarding, symbiotic relationship. When they have meeting about issues, attend them. When you have doc issues, communicate about them with support. You can thrive as a team when you understand each other and the unique issues that each of you faces. 
+Il est important de se rappeler que lorsque vous travaillez dans un rôle distinct au sein d'une équipe, cela ne vous sépare pas de l'équipe. Même si vous écrivez et que les membres de l'équipe apportent leur soutien, vous faites toujours partie de l'équipe et vous êtes essentiels les uns pour les autres. Plus la documentation est bonne, moins il y a de redondances dans les tickets et les appels entrants. Cela signifie que le service d'assistance recevra moins de tickets, certes, mais ces tickets contiendront des problèmes difficiles qui nécessitent vraiment leur temps et leurs compétences. Il s'agit d'une relation enrichissante et symbiotique. Lorsqu'ils organisent des réunions sur des problèmes, participez-y. Lorsque vous avez des problèmes de doc, communiquez-les avec le support. Vous pouvez prospérer en tant qu'équipe lorsque vous vous comprenez mutuellement et que vous comprenez les problèmes uniques auxquels chacun d'entre vous est confronté. 
 
-Simplify communication
+Simplifiez la communication
 ~~~~~~~~~~~~~~~~~~~~~~
 
-When you are writing documentation full-time, you have little to no time to answer calls or respond to tickets. You are relying on your team to let you know about any issues that resurface enough to create a doc page or FAQ. However, they are busy too. Anyone with exposure to support work will know that it is a tough job that requires helping as many customers as you can in a single day while maintaining the highest satisfaction rating possible. The support team needs to be able to send you their issues quickly and efficiently.
+Lorsque vous rédigez de la documentation à plein temps, vous avez peu ou pas de temps pour répondre aux appels ou aux tickets. Vous comptez sur votre équipe pour vous informer de tout problème qui refait surface au point de créer une page de documentation ou une FAQ. Mais ils sont aussi très occupés. Toute personne ayant travaillé dans le domaine de l'assistance sait qu'il s'agit d'un travail difficile qui exige d'aider autant de clients que possible en une seule journée tout en maintenant le taux de satisfaction le plus élevé possible. L'équipe d'assistance doit être en mesure de vous transmettre ses problèmes rapidement et efficacement.
 
-There are several ways to do this:
+Il existe plusieurs façons d'y parvenir :
 
-* Create a dedicated email account for doc tasks where they can send issues.
-* Create a Slack command that assigns you the task automatically.
-* Use a team Trello board.
+* Créer un compte de messagerie dédié aux tâches de doc où ils peuvent envoyer les problèmes.
+* Créer une commande Slack qui vous assigne automatiquement la tâche.
+* Utilisez un tableau Trello d'équipe.
 
-Find a solution that works best for your team, and don’t despair. If one solution does not work, move on to the next.
+Trouvez la solution qui fonctionne le mieux pour votre équipe, et ne désespérez pas. Si une solution ne fonctionne pas, passez à la suivante.
 
-Collaborate
+Collaborer
 ~~~~~~~~~~~
 
-When a member of your team assigns you a doc issue, give them partial ownership of that issue. Even though you are writing the doc, they should be the one to review it to ensure that you are answering the issue correctly and there are no gaps. And once they do that, show gratitude. Ensure your team knows how much the collaborative relationship is valuable to the documentation. Small things, like showing how many hits an article that was created from an assigned issue gets per month will help your team understand how valuable their contributions are, and it will encourage even more contributions. 
+Lorsqu'un membre de votre équipe vous confie une question de documentation, donnez-lui la propriété partielle de cette question. Même si c'est vous qui rédigez le document, c'est lui qui doit le relire pour s'assurer que vous répondez correctement à la question et qu'il n'y a pas de lacunes. Et une fois qu'ils l'ont fait, montrez-leur votre gratitude. Assurez-vous que votre équipe sait à quel point la relation de collaboration est précieuse pour la documentation. De petites choses, comme le nombre de visites mensuelles d'un article créé à partir d'une question assignée, aideront votre équipe à comprendre la valeur de ses contributions et l'encourageront à contribuer davantage. 
 
-Even though being in a unique role within a team may feel awkward to you at first, the more you keep at it and work with your team, the more the benefits of the relationship will begin to shine. Eventually you will get to a point where the distinction between support and technical writer do not matter, because you are a team working as one.  
+Même si le fait d'occuper un rôle unique au sein d'une équipe peut vous sembler gênant au début, plus vous persévérez et travaillez avec votre équipe, plus les avantages de cette relation commenceront à se faire sentir. Vous finirez par arriver à un point où la distinction entre le support et le rédacteur technique n'aura plus d'importance, car vous êtes une équipe qui ne fait qu'un.  
   
